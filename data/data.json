@@ -1,0 +1,824 @@
+{
+    "data": [
+        {
+            "english": [
+                {
+                    "nav": [
+                        {
+                            "links": [
+                                {
+                                    "title": "Home",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Skills",
+                                    "link": "Skills"
+                                },
+                                {
+                                    "title": "Projects",
+                                    "link": "Projects"
+                                }
+                            ],
+                            "flags": [
+                                {
+                                    "img": "img/netherlands.png",
+                                    "language": "dutch"
+                                }
+                            ]
+                        }
+                    ],
+                    "banner": [
+                        {
+                            "background": "img/portrait.png",
+                            "alt": "This is an image of a software developer",
+                            "name": "My name is Jacob",
+                            "qaul": "and I am a software developer",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                            "button": [
+                                {
+                                    "buttonText": "Projects",
+                                    "link": "Projects"
+                                }
+                            ],
+                            "icons": [
+                                {
+                                    "icon": "fa-solid fa-code"
+                                },
+                                {
+                                    "icon": "fa-solid fa-hammer"
+                                },
+                                {
+                                    "icon": "fa-solid fa-book-open-reader"
+                                },
+                                {
+                                    "icon": "fa-solid fa-users-gear"
+                                },
+                                {
+                                    "icon": "fa-solid fa-users-line"
+                                },
+                                {
+                                    "icon": "fa-solid fa-compass-drafting"
+                                },
+                                {
+                                    "icon": "fa-solid fa-pen-ruler"
+                                },
+                                {
+                                    "icon": "fa-brands fa-js"
+                                },
+                                {
+                                    "icon": "fa-brands fa-html5"
+                                }
+                            ],
+                            "widgets": [
+                                {
+                                    "title": "An eye for design"
+                                },
+                                {
+                                    "title": "Keen to learn"
+                                },
+                                {
+                                    "title": "Hard worker"
+                                },
+                                {
+                                    "title": "Team player"
+                                },
+                                {
+                                    "title": "Communicative"
+                                },
+                                {
+                                    "title": "Detail oriented"
+                                }
+                            ]
+                        }
+                    ],
+                    "skills": [
+                        {
+                            "title": "Skills",
+                            "id": "Skills",
+                            "widgets": [
+                                {
+                                    "img": "img/html.png",
+                                    "title": "HTML 5",
+                                    "alt": "image of HTML 5 logo"
+                                },
+                                {
+                                    "img": "img/css.png",
+                                    "title": "CSS",
+                                    "alt": "image of CSS logo"
+                                },
+                                {
+                                    "img": "img/js.png",
+                                    "title": "JS",
+                                    "alt": "image of Java script Logo"
+                                },
+                                {
+                                    "img": "img/php.png",
+                                    "title": "PHP",
+                                    "alt": "image of PHP logo"
+                                },
+                                {
+                                    "img": "img/sass.png",
+                                    "title": "SASS",
+                                    "alt": "image of SASS logo"
+                                }
+                            ]
+                        }
+                    ],
+                    "projects": [
+                        {
+                            "title": "Projects",
+                            "id": "Projects",
+                            "widgets": [
+                                {
+                                    "title": "Banky",
+                                    "img": "img/banky.png",
+                                    "alt": "this is an image of a bank app that I made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/Collection of Happiness.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/markant.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment"
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "hoi"
+                                                        },
+                                                        {
+                                                            "text": "hoi1"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Collection of happiness",
+                                    "img": "img/Collection of Happiness.png",
+                                    "alt": "this is an image of a podcast site that i made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/Collection of Happiness.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/markant.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "hoi"
+                                                        },
+                                                        {
+                                                            "text": "hoi1"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "The walking path",
+                                    "img": "img/The walking Path.png",
+                                    "alt": "this is an image of a site that i made for an interactie room",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/Collection of Happiness.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/markant.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "hoi"
+                                                        },
+                                                        {
+                                                            "text": "hoi1"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Markant",
+                                    "img": "img/markant.png",
+                                    "alt": "this is an image of a charity site that i made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/Collection of Happiness.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/markant.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "hoi"
+                                                        },
+                                                        {
+                                                            "text": "hoi1"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "dutch": [
+                {
+                    "nav": [
+                        {
+                            "links": [
+                                {
+                                    "title": "Home",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Skills",
+                                    "link": "Skills"
+                                },
+                                {
+                                    "title": "Projecten",
+                                    "link": "Projects"
+                                }
+                            ],
+                            "flags": [
+                                {
+                                    "img": "img/britain.png",
+                                    "language": "english"
+                                }
+                            ]
+                        }
+                    ],
+                    "banner": [
+                        {
+                            "background": "img/portrait.png",
+                            "alt": "This is an of a software developer",
+                            "name": "My name is Jacob",
+                            "qaul": "and I am a software developer",
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                            "button": [
+                                {
+                                    "buttonText": "Projecten",
+                                    "link": "Projects"
+                                }
+                            ],
+                            "icons": [
+                                {
+                                    "icon": "fa-solid fa-code"
+                                },
+                                {
+                                    "icon": "fa-solid fa-hammer"
+                                },
+                                {
+                                    "icon": "fa-solid fa-book-open-reader"
+                                },
+                                {
+                                    "icon": "fa-solid fa-users-gear"
+                                },
+                                {
+                                    "icon": "fa-solid fa-users-line"
+                                },
+                                {
+                                    "icon": "fa-solid fa-compass-drafting"
+                                },
+                                {
+                                    "icon": "fa-solid fa-pen-ruler"
+                                },
+                                {
+                                    "icon": "fa-brands fa-js"
+                                },
+                                {
+                                    "icon": "fa-brands fa-html5"
+                                }
+                            ],
+                            "widgets": [
+                                {
+                                    "title": "An eye for design"
+                                },
+                                {
+                                    "title": "Keen to learn"
+                                },
+                                {
+                                    "title": "Hard worker"
+                                },
+                                {
+                                    "title": "Team player"
+                                },
+                                {
+                                    "title": "Communicative"
+                                },
+                                {
+                                    "title": "Detail oriented"
+                                }
+                            ]
+                        }
+                    ],
+                    "skills": [
+                        {
+                            "title": "Skills",
+                            "id": "Skills",
+                            "widgets": [
+                                {
+                                    "img": "img/html.png",
+                                    "title": "HTML 5",
+                                    "alt": "image of HTML 5 logo"
+                                },
+                                {
+                                    "img": "img/css.png",
+                                    "title": "CSS",
+                                    "alt": "image of CSS logo"
+                                },
+                                {
+                                    "img": "img/js.png",
+                                    "title": "JS",
+                                    "alt": "image of Java script Logo"
+                                },
+                                {
+                                    "img": "img/php.png",
+                                    "title": "PHP",
+                                    "alt": "image of PHP logo"
+                                },
+                                {
+                                    "img": "img/sass.png",
+                                    "title": "SASS",
+                                    "alt": "image of SASS logo"
+                                }
+                            ]
+                        }
+                    ],
+                    "projects": [
+                        {
+                            "title": "Projects",
+                            "id": "Projects",
+                            "widgets": [
+                                {
+                                    "title": "Banky",
+                                    "img": "img/banky.png",
+                                    "alt": "this is an image of a bank app that i made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/Collection of Happiness.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/markant.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "hoi"
+                                                        },
+                                                        {
+                                                            "text": "hoi1"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Collection of happiness",
+                                    "img": "img/Collection of Happiness.png",
+                                    "alt": "this is an image of a podcast site that i made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/Collection of Happiness.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/markant.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "hoi"
+                                                        },
+                                                        {
+                                                            "text": "hoi1"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "The walking path",
+                                    "img": "img/The walking Path.png",
+                                    "alt": "this is an image of a site that i made for an interactie room",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/Collection of Happiness.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/markant.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "hoi"
+                                                        },
+                                                        {
+                                                            "text": "hoi1"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Markant",
+                                    "img": "img/markant.png",
+                                    "alt": "this is an image of a charity site that i made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/Collection of Happiness.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/markant.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "hoi"
+                                                        },
+                                                        {
+                                                            "text": "hoi1"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

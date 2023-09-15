@@ -1,0 +1,88 @@
+// nav Menu bar animations
+
+@keyframes barOneCross {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-50%) rotate(45deg);
+    }
+}
+
+@keyframes barTwoCross {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes barThreeCross {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: rotate(-45deg) translateY(-55%);
+    }
+}
+
+@keyframes barOne {
+    0% {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-50%) rotate(45deg);
+    }
+
+    100% {
+        position: relative;
+        width: 80%;
+        transform: translateY(0%) rotate(0deg);
+    }
+}
+
+// nav dropdown animations
+
+@keyframes navDropdownExpand {
+    0% {
+        opacity: 1;
+        width: 20%;
+        height: 0%;
+    }
+
+    40%{
+        width: 100%;
+        height: 90%;
+    }
+
+    100% {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@keyframes navDropdownRetract {
+    0% {
+        width: 100%;
+        height: auto;
+    }
+
+    100% {
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+    }
+}

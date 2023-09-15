@@ -1,0 +1,112 @@
+@use "../../abstracts/colors";
+@use "../../abstracts/mixins";
+
+.modal {
+    &__header {
+        width: 100%;
+        height: 5rem;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        display: flex;
+    }
+
+    &__section {
+        display: flex;
+
+        &--first {
+            width: 25%;
+            height: 100%;
+        }
+
+        &--second {
+            width: 50%;
+            height: 100%;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &--third {
+            width: 25%;
+            height: 100%;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+
+    &__tag {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 100%;
+        padding: 1rem 4rem;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        @include mixins.defaultBorder;
+        border-top: none;
+    }
+
+    &__name {
+        font-size: 140%;
+        color: map-get(colors.$baseColors, "colorOne");
+        font-weight: 400;
+    }
+
+    &__exitButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        height: 100%;
+        width: 6rem;
+        @include mixins.defaultBorder;
+        color: map-get(colors.$baseColors, "colorOne");
+        background: white;
+        font-size: 200%;
+        border-top: none;
+        border-right: none;
+        transition: all 0.4s;
+
+        &:hover {
+            cursor: pointer;
+            background: map-get(colors.$baseColors, "colorOne");
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 68.75rem) {
+    .modal{
+
+        &__section {
+    
+            &--first {
+                width: 20%;
+            }
+    
+            &--second {
+                width: 60%;
+            }
+    
+            &--third {
+                width: 20%;
+            }
+        }
+
+        &__header{
+            height: 6rem;
+        }
+
+        &__name{
+            text-align: center;
+            font-size: 100%;
+        }
+
+        &__exitButton{
+            height: 5rem;
+            font-size: 150%;
+        }
+    }
+}

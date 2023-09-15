@@ -1,0 +1,68 @@
+@use "../../abstracts/mixins";
+@use "../../abstracts/colors";
+
+.nav {
+    &__menuButtonContainer {
+        width: 5rem;
+        height: 5rem;
+        display: none;
+    }
+
+    &__menuButton {
+        width: 5rem;
+        height: 5rem;
+        @include mixins.defaultBorder;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.5rem;
+        position: relative;
+    }
+
+    &__bars {
+        height: 10%;
+        width: 80%;
+        background: map-get(colors.$baseColors, "colorSix");
+        animation-duration: 0.8s;
+        animation-fill-mode: forwards;
+    }
+
+    &__menuContainer {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        z-index: 99;
+        background: white;
+        border-right: 0.2rem solid #a4deff;
+        padding: 2rem;
+        animation-duration: 1.2s;
+        animation-fill-mode: forwards;
+    }
+
+    &__menuListItem{
+        width: 100%;
+        height: 5rem;
+    }
+
+    &__menuLink {
+        text-decoration: none;
+        font-size: 2.5rem;
+        color: map-get(colors.$baseColors, "colorOne");
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    .nav {
+        &__menuButtonContainer {
+            width: 5rem;
+            height: 5rem;
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,89 @@
+@use "../../abstracts/colors";
+@use "../../abstracts/mixins";
+
+.banner{
+    &__widgetsContainer{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 2rem;
+        list-style: none;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    &__widgetWidget{
+        width: calc(100% / 4 - 1rem);
+        height: calc(50% - 2rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include mixins.defaultBorder;
+        border-radius: 2rem; 
+    }
+
+    &__widgetWidgetTitle{
+        font-size: 100%;
+        text-align: center;
+        color: map-get(colors.$baseColors, "colorOne");
+    }
+}
+
+@media screen and (max-width: 75rem){
+    .banner{
+        &__widgetWidget{
+            width: calc(100% / 3 - 2rem);
+        }
+
+        &__widgetWidgetTitle{
+            font-size: 90%;
+        }
+
+        &__widgetsContainer{
+            height: 30%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 2rem 0; 
+        }
+    }
+}
+
+@media screen and (max-width: 59.375rem){
+    .banner{
+        &__widgetWidget{
+            padding: 1rem;
+            width: calc(100% / 2 - 2rem);
+            height: 5rem;
+        }
+
+        &__widgetWidgetTitle{
+            font-size: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 28.125rem){
+    .banner{
+        &__widgetWidget{
+            width: calc(100% / 2 - 1rem);
+            height: 5rem;
+        }
+
+        &__widgetWidgetTitle{
+            font-size: 80%;
+        }
+
+        &__widgetsContainer{
+            height: 30%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 2rem 0; 
+        }
+    }
+}

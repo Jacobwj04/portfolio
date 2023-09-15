@@ -1,0 +1,60 @@
+@use "../../abstracts/colors";
+@use "../../abstracts/mixins";
+
+.banner{
+    &__iconContainer{
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__iconsContainer{
+        width: calc(6rem * 3 + 3rem);
+        height: calc(6rem * 3 + 3rem);
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    &__widgetIcon{
+        flex-grow: 1;
+        width: 6rem;
+        aspect-ratio: 1/1;
+        background: map-get(colors.$baseColors, "colorFive");
+        border: 0.2rem solid map-get(colors.$baseColors, "colorThree");
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 49.625rem){
+    .banner{
+        &__iconsContainer{
+            width: calc(4rem * 3 + 3rem);
+            height: calc(4rem * 3 + 3rem);
+        }
+    
+        &__widgetIcon{
+            flex-grow: 1;
+            width: 4rem;
+            aspect-ratio: 1/1;
+            font-size: 80%
+        }
+    }
+}
+
+@media screen and (max-width: 28.125rem){
+    .banner{
+        &__widgetIcon{
+            width: 3.5rem;
+            aspect-ratio: 1/1;
+            font-size: 70%
+        }
+    }
+}

@@ -1,0 +1,88 @@
+@use "../../abstracts/colors";
+@use "../../abstracts/mixins";
+
+.modal {
+    width: 95%;
+    height: 95%;
+    border-radius: 2rem;
+    @include mixins.defaultBorder;
+    background: rgba(255, 255, 255, 0.95);
+
+    &__container {
+        height: 100vh;
+        width: 100%;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        // background: linear-gradient(to bottom right, white, 60%, map-get(colors.$baseColors, "colorFive"));
+    }
+
+    &__backdrop{
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(10px);
+    }
+
+    &__main {
+        width: 100%;
+        height: calc(100% - 5rem);
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        display: flex;
+        justify-content: space-around;
+        padding: 4rem;
+    }
+
+    &__sections {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    &__widgetContainer {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 68.75rem) {
+    .modal {
+
+        &__container {
+            height: auto;
+        }
+
+        &__main {
+            flex-direction: column-reverse;
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        &__sections {
+            width: 100%;
+            gap: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    .modal {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+        &__widgetContainer {
+            flex-direction: column-reverse;
+            gap: 2rem;
+        }
+    }
+}

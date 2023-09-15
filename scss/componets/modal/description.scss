@@ -1,0 +1,41 @@
+@use "../../abstracts/colors";
+@use "../../abstracts/mixins";
+
+.modal {
+    &__description {
+        width: 100%;
+        height: 70%;
+        @include mixins.defaultBorder;
+        border-radius: 2rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    &__descriptionH2 {
+        color: map-get(colors.$baseColors, "colorOne");
+        font-weight: 400;
+    }
+
+    &__descriptionP {
+        color: map-get(colors.$textColor, "colorOne");
+    }
+}
+
+@media screen and (max-width: 68.75rem) {
+    .modal{
+
+        &__description{
+            height: auto;
+        }
+        
+        &__descriptionH2{
+            font-size: 110%;
+        }
+
+        &__descriptionP{
+            font-size: 90%;
+        }
+    }   
+}

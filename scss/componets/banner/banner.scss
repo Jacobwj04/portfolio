@@ -1,0 +1,133 @@
+@use "../../abstracts/colors";
+@use "../../abstracts/mixins";
+
+.banner {
+    height: calc(100vh - 8rem - 10rem);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__widgetContainer {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        padding: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+
+    &__widget {
+        list-style: none;
+        border-radius: 2rem;
+        @include mixins.defaultBorder;
+        width: 90%;
+        height: calc(100% - 3rem);
+        display: flex;
+    }
+
+    &__widgetBanner {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__widgetFigure {
+        width: 100%;
+        height: 70%;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-end;
+        position: relative;
+        background: linear-gradient(to bottom right,white, map-get(colors.$baseColors, "colorOne"));
+        z-index: 10;
+    }
+
+    &__widgetImg{
+        height: 90%;
+        width: 50%;
+        object-fit:cover;
+        opacity: 0.8;
+        border-bottom-right-radius: 2rem;
+    }
+}
+
+@media screen and (max-width: 93.75rem){
+    .banner{
+        &__widgetContainer {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            padding: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 4rem;
+        }
+    }
+}
+
+@media screen and (max-width: 59.375rem){
+    .banner{
+        height: auto;
+
+        &__widget{
+            flex-direction: column;
+        }
+
+        &__widgetBanner {
+            width: 100%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__widgetFigure {
+            width: 100%;
+            height: 70%;
+            align-items:center;
+            border-top-right-radius: 2rem;
+        }
+
+        &__widgetImg{
+            height: 90%;
+            width: 50%;
+            object-fit:cover;
+            opacity: 0.8;
+            border-top-right-radius: 2rem;
+            border-bottom-right-radius: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 49.625rem){
+    .banner{
+        &__widgetContainer {
+            width: 100%;
+            height: 100%;
+        }
+
+        &__widget{
+            flex-direction: column;
+            width: 100%;
+        }
+
+        &__widgetContainer {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            padding: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 28.125rem){
+    .banner{
+    }
+}

@@ -1,0 +1,141 @@
+@use "../../abstracts/colors";
+@use "../../abstracts/mixins";
+
+.banner{
+    &__widgetText{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    &__widgetHeader{
+        height: 13rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__widgetTitle{
+        font-size: 140%;
+        color: map-get(colors.$baseColors, "colorOne");
+        text-align: center;
+    }
+
+    &__widgetQaul{
+        font-size: 140%;
+        color: map-get(colors.$baseColors, "colorOne");
+        text-align: center;
+    }
+
+    &__widgetParagraph{
+        height: calc(100% - 21rem);
+    }
+
+    &__widgetDesc {
+        font-size: 90%;
+        color: map-get(colors.$textColor, "colorOne");
+    }
+
+    &__widgetButtonContainer{
+        height: 8rem;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    &__widgetButton{
+        color: black;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mixins.defaultBorder;
+        font-size: 2rem;
+        border-radius: 2rem;
+        width: 12rem;
+        height: 5rem;
+        background: map-get(colors.$baseColors, "colorTwo");
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            color: #93C6E7;
+            background: transparent;
+        }
+    }
+}
+
+@media screen and (max-width: 68.75rem){
+    .banner{
+        &__widgetHeader{
+            height: 10rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &__widgetTitle{
+            font-size: 120%;
+        }
+    
+        &__widgetQaul{
+            font-size: 120%;
+        }
+    
+        &__widgetParagraph{
+            height: calc(100% - 18rem);
+        }
+
+        &__widgetDesc {
+            font-size: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 59.375rem){
+    .banner{
+        &__widgetText{
+            width: 100%;
+            height: calc(100% - 70%);
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            gap: 2rem;
+        }
+
+        &__widgetHeader{
+            height: 20%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &__widgetTitle{
+            font-size: 120%;
+        }
+    
+        &__widgetQaul{
+            font-size: 120%;
+        }
+    
+        &__widgetParagraph{
+            height: 60%;
+        }
+
+        &__widgetDesc {
+            font-size: 80%;
+        }
+
+        &__widgetButtonContainer{
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    }
+}

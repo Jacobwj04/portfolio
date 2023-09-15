@@ -1,0 +1,63 @@
+@use "../../abstracts/colors";
+@use "../../abstracts/mixins";
+
+.modal {
+    &__linkModal {
+        width: 55%;
+        height: 100%;
+        border-radius: 2rem;
+        @include mixins.defaultBorder;
+        list-style: none;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    &__linkList {
+        width: 100%;
+        height: 30%;
+        @include mixins.defaultBorder;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding-left: 1rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: map-get(colors.$baseColors, "colorOne");
+        font-size: 120%;
+        transition: all 0.4s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__linkImg {
+        width: 20%;
+        height: 90%;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    .modal {
+
+        &__linkModal{
+            width: 100%;
+            height: auto;
+            gap: 2rem;
+        }
+
+        &__linkList{
+            height: 4rem;
+        }
+
+        &__link{
+            font-size: 100%;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@use "./abstracts/reset";
+@use "./abstracts/base";
+
+@use "./componets/nav/nav.scss";
+// banner componets
+@use "./componets/banner/banner.scss";
+@use "./componets/banner/iconSection.scss";
+@use "./componets/banner/widgets.scss";
+@use "./componets/banner/textSection.scss";
+
+@use "./componets/skills/skills.scss";
+@use "./componets/projects/projects.scss";
+
+// Modal componets
+@use "./componets/modal/modal.scss";
+@use "./componets/modal/header.scss";
+@use "./componets/modal/slider.scss";
+@use "./componets/modal/language.scss";
+@use "./componets/modal/link.scss";
+@use "./componets/modal/assignment.scss";
+@use "./componets/modal/description.scss";
+
+// Mobile componets
+
+@use "./componets/nav/navMobile.scss";
+
+
+// Animations 
+
+@use "./abstracts/animations";
