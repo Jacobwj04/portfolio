@@ -83,13 +83,15 @@ class Body {
     protfolio;
     data;
     app
+    contact;
 
     constructor(protfolio, data, app) {
         this.protfolio = protfolio
         this.data = data;
         this.app = app;
         this.renderer = new Renderer();
-        this.nav = new Nav(this.data[0].nav, this.app);
+        this.contact = new Contact(this.data[0].contact);
+        this.nav = new Nav(this.data[0].nav, this.app, this.contact);
         this.banner = new Banner(this.data[0].banner);
         this.skills = new Skills(this.data[0].skills);
         this.projects = new Projects(this.data[0].projects, this);
@@ -99,6 +101,7 @@ class Body {
 
     render() {
         this.renderer.render(document.querySelector("body"), this.nav.htmlElement);
+        this.renderer.render(document.querySelector("body"), this.contact.htmlElement);
         this.renderer.render(document.querySelector("body"), this.banner.htmlElement);
         this.renderer.render(document.querySelector("body"), this.skills.htmlElement);
         this.renderer.render(document.querySelector("body"), this.projects.htmlElement);
@@ -109,13 +112,15 @@ class Nav {
     data;
     app;
 
-    constructor(data, app) {
+    constructor(data, app, contactApp) {
         this.data = data;
         this.app = app;
+        this.contactApp = contactApp;
         this.active = false;
 
         this.htmlElement = document.createElement("nav");
         this.htmlElement.classList = "nav";
+        console.log(this.data);
 
         this.renderSectionOne();
         this.renderSectionSecond(this.data);
@@ -239,6 +244,9 @@ class Nav {
         this.contactButton.classList = "nav__contactButton";
         this.contactButton.innerText = "Contact";
         this.sectionThird.appendChild(this.contactButton);
+        this.contactButton.onclick = () => {
+            this.contactApp.displayCard();
+        };
     }
 
     flagButtonPressed(language) {
@@ -251,6 +259,73 @@ class Nav {
             let switchLanguage = this.data[0].english;
             this.app.switcher.switch(switchLanguage);
         }
+    }
+}
+
+class Contact {
+    data;
+
+    constructor(data) {
+        this.data = data;
+
+        this.htmlElement = document.createElement("section");
+        this.htmlElement.classList = "contact";
+
+        this.makeCard(this.data);
+    }
+
+    makeCard(data) {
+        this.widget = document.createElement("section");
+        this.widget.classList = "contact__widget";
+        this.htmlElement.appendChild(this.widget);
+
+        this.figure = document.createElement("figure");
+        this.figure.classList = "contact__figure";
+        this.widget.appendChild(this.figure)
+
+        this.img = document.createElement("img");
+        this.img.classList = "contact__img";
+        this.img.src = data[0].image;
+        this.img.alt = data[0].alt;
+        this.figure.appendChild(this.img);
+
+        this.list = document.createElement("ul");
+        this.list.classList = "contact__list";
+        this.widget.appendChild(this.list);
+
+        let links = data[0]["links"];
+        for (let i = 0; i < links.length; i++) {
+            this.listItem = document.createElement("li");
+            this.listItem.classList = "contact__listItem";
+
+            this.icon = document.createElement("i");
+            this.icon.classList = "contact__icon " + links[i].icon;
+
+            this.link = document.createElement("a");
+            this.link.classList = "contact__link";
+            this.link.href = links[i].link;
+            this.link.innerText = links[i].title;
+
+            this.listItem.appendChild(this.icon);
+            this.list.appendChild(this.listItem);
+            this.listItem.appendChild(this.link);
+        }
+
+        this.closeButton = document.createElement("button");
+        this.closeButton.classList = "contact__closeButton";
+        this.closeButton.innerText = "X";
+        this.widget.appendChild(this.closeButton);
+        this.closeButton.onclick = () => {
+            this.hideCard();
+        };
+    }
+
+    displayCard() {
+        this.htmlElement.style.display = "flex";
+    }
+
+    hideCard() {
+        this.htmlElement.style.display = "none";
     }
 }
 
@@ -311,7 +386,7 @@ class Banner {
             this.widgetIcon.classList = "banner__widgetIcon " + iconData[i].icon + " banner__widgetIcon--" + i;
             this.widgetIconsContainer.appendChild(this.widgetIcon);
         }
-        
+
         this.widgetWidgets = document.createElement("ul");
         this.widgetWidgets.classList = "banner__widgetsContainer";
         this.widgetBanner.appendChild(this.widgetWidgets);
@@ -506,7 +581,7 @@ class Modal {
 
         this.modalBackDrop = document.createElement("div");
         this.modalBackDrop.classList = "modal__backdrop";
-        this.modalBackDrop.style.backgroundImage = "url('"+this.widgets.img+"')";
+        this.modalBackDrop.style.backgroundImage = "url('" + this.widgets.img + "')";
         this.htmlElement.appendChild(this.modalBackDrop);
 
         this.modal = document.createElement("article");

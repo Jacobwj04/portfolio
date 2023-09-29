@@ -102,10 +102,15 @@
 
 @media screen and (max-width: 37.5rem) {
     .projects{
+        width: 100%;
         
         &__project{
             width: auto;
             height: auto;
+        }
+
+        &__projects{
+            padding: 1rem;
         }
 
         &__tag{
