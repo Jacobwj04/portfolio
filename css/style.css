@@ -904,8 +904,8 @@ body {
 }
 .modal__sliderImg {
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
 }
 .modal__sliderImgDotContainer {
   position: absolute;

@@ -56,7 +56,7 @@
                             "alt": "This is an image of a software developer",
                             "name": "My name is Jacob",
                             "qaul": "and I am a software developer",
-                            "description": "",
+                            "description": "My combination of technical expertise, problem solving ability, teamwork, and dedication to learning new skills makes me a valuable addition to any software team. I'm excited to make my contribution and assist in achieving your organization's goals in the ever-evolving world of software.",
                             "button": [
                                 {
                                     "buttonText": "Projects",
@@ -165,11 +165,11 @@
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/Collection of Happiness.png",
+                                                    "img": "img/bankyDesktopDesign.png",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/markant.png",
+                                                    "img": "img/bankyMobileDesign.png",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
@@ -188,7 +188,7 @@
                                             "assignment": [
                                                 {
                                                     "title": "Assignment",
-                                                    "text": "The assignment"
+                                                    "text": "The assignment was to create a font-end only banking applocation that could switch between the reqular account and the Self-Employed Account"
                                                 }
                                             ],
                                             "description": [
@@ -196,7 +196,7 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "hoi"
+                                                            "text": "The applocation is built in java script making it easy to switch between the data that the user requires."
                                                         },
                                                         {
                                                             "text": "hoi1"
@@ -230,15 +230,15 @@
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/banky.png",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
                                                     "img": "img/Collection of Happiness.png",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/markant.png",
+                                                    "img": "img//COHDesktopDesign.png",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/COHMobileDesign.png",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
@@ -486,9 +486,9 @@
                         {
                             "background": "img/Subject 32.png",
                             "alt": "This is an of a software developer",
-                            "name": "My name is Jacob",
-                            "qaul": "and I am a software developer",
-                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                            "name": "Mijn naam is Jacob",
+                            "qaul": "en ik ben een softwareontwikkelaar",
+                            "description": "Mijn combinatie van technische expertise, probleemoplossend vermogen, teamwerk en toewijding aan het leren van nieuwe vaardigheden maakt mij een waardevolle aanvulling voor elk softwareteam. Ik ben enthousiast om mijn bijdrage te leveren en te helpen bij het bereiken van de doelstellingen van uw organisatie in de steeds evoluerende wereld van software.",
                             "button": [
                                 {
                                     "buttonText": "Projecten",
@@ -526,22 +526,22 @@
                             ],
                             "widgets": [
                                 {
-                                    "title": "An eye for design"
+                                    "title": "Oog voor design"
                                 },
                                 {
-                                    "title": "Keen to learn"
+                                    "title": "Leerzaam"
                                 },
                                 {
-                                    "title": "Hard worker"
+                                    "title": "Harde werker"
                                 },
                                 {
-                                    "title": "Team player"
+                                    "title": "Team speler"
                                 },
                                 {
-                                    "title": "Communicative"
+                                    "title": "Communicatief"
                                 },
                                 {
-                                    "title": "Detail oriented"
+                                    "title": "Detailgericht"
                                 }
                             ]
                         }
@@ -581,14 +581,14 @@
                     ],
                     "projects": [
                         {
-                            "title": "Projects",
+                            "title": "Projecten",
                             "id": "Projects",
                             "widgets": [
                                 {
                                     "title": "Banky",
                                     "img": "img/banky.png",
                                     "alt": "this is an image of a bank app that i made",
-                                    "buttonText": "More Info",
+                                    "buttonText": "Meer Info",
                                     "modal": [
                                         {
                                             "slider": [
@@ -657,7 +657,7 @@
                                     "title": "Collection of happiness",
                                     "img": "img/Collection of Happiness.png",
                                     "alt": "this is an image of a podcast site that i made",
-                                    "buttonText": "More Info",
+                                    "buttonText": "Meer Info",
                                     "modal": [
                                         {
                                             "slider": [
@@ -726,7 +726,7 @@
                                     "title": "The walking path",
                                     "img": "img/The walking Path.png",
                                     "alt": "this is an image of a site that i made for an interactie room",
-                                    "buttonText": "More Info",
+                                    "buttonText": "Meer Info",
                                     "modal": [
                                         {
                                             "slider": [
@@ -795,7 +795,7 @@
                                     "title": "Markant",
                                     "img": "img/markant.png",
                                     "alt": "this is an image of a charity site that i made",
-                                    "buttonText": "More Info",
+                                    "buttonText": "Meer Info",
                                     "modal": [
                                         {
                                             "slider": [
