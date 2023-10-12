@@ -22,14 +22,15 @@
                             "flags": [
                                 {
                                     "img": "img/netherlands.png",
-                                    "language": "dutch"
+                                    "language": "dutch",
+                                    "alt": "flag of the netherlands"
                                 }
                             ]
                         }
                     ],
                     "contact": [
                         {
-                            "image": "img/Subject 30.png",
+                            "image": "/img/Subject 30.png",
                             "alt": "",
                             "links": [
                                 {
@@ -43,7 +44,7 @@
                                     "icon": "fa-solid fa-phone"
                                 },
                                 {
-                                    "link": "",
+                                    "link": "https://www.linkedin.com/",
                                     "title": "LinkedIn",
                                     "icon": "fa-brands fa-linkedin"
                                 }
@@ -154,22 +155,22 @@
                             "widgets": [
                                 {
                                     "title": "Banky",
-                                    "img": "img/banky.png",
+                                    "img": "img/banky.webp",
                                     "alt": "this is an image of a bank app that I made",
                                     "buttonText": "More Info",
                                     "modal": [
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/banky.png",
+                                                    "img": "img/banky.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/bankyDesktopDesign.png",
+                                                    "img": "img/bankyDesktopDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/bankyMobileDesign.png",
+                                                    "img": "img/bankyMobileDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
@@ -188,7 +189,7 @@
                                             "assignment": [
                                                 {
                                                     "title": "Assignment",
-                                                    "text": "The assignment was to create a font-end only banking applocation that could switch between the reqular account and the Self-Employed Account"
+                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
                                                 }
                                             ],
                                             "description": [
@@ -196,10 +197,10 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "The applocation is built in java script making it easy to switch between the data that the user requires."
+                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
                                                         },
                                                         {
-                                                            "text": "hoi1"
+                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
                                                         }
                                                     ]
                                                 }
@@ -223,22 +224,22 @@
                                 },
                                 {
                                     "title": "Collection of happiness",
-                                    "img": "img/Collection of Happiness.png",
+                                    "img": "img/Collection of Happiness.webp",
                                     "alt": "this is an image of a podcast site that i made",
                                     "buttonText": "More Info",
                                     "modal": [
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/Collection of Happiness.png",
+                                                    "img": "img/Collection of Happiness.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img//COHDesktopDesign.png",
+                                                    "img": "img//COHDesktopDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/COHMobileDesign.png",
+                                                    "img": "img/COHMobileDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
@@ -257,7 +258,7 @@
                                             "assignment": [
                                                 {
                                                     "title": "Assignment",
-                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                    "text": "Collection of happiness was an end of year project in the second. The assignment was to make a web application for a podcast called Collection of happiness using the OOP methond and generating html with js."
                                                 }
                                             ],
                                             "description": [
@@ -265,10 +266,10 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "hoi"
+                                                            "text": "the project is made of two sides the left side shows four randomly generated cards. When one of the cards the is clicked the infomation is put into the modal in the right section. Each card displays the date that the podcast was writen and the title of the podcast it also displays an image that fits the title of the podcats."
                                                         },
                                                         {
-                                                            "text": "hoi1"
+                                                            "text": "The right section has a modal in it that displays the data from the first card. The modal is made up of an image with the title and date of the podcast. The modal also has a description of the podcast. The modal also has two buttons one of the button downloads an audio file of the podcast and the other button links to the podcast site for more information."
                                                         }
                                                     ]
                                                 }
@@ -326,7 +327,7 @@
                                             "assignment": [
                                                 {
                                                     "title": "Assignment",
-                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                    "text": "The assignment was to build an interactive for The Upside Down Museum. The room had to be based on an artist. The artist that we choose was Daan Roosegaarde. The room had to be 2.5 m x 2.5 m and interactive using software."
                                                 }
                                             ],
                                             "description": [
@@ -334,10 +335,10 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "hoi"
+                                                            "text": "The interactive side of the project was achieved using an arduino and led strips. Our idea was to make a path that would light up in incrimends because we thought instead of being told were to walk the room shows the user the way through the room. The idea is based on a cycle path that the artist made in Eindhoven."
                                                         },
                                                         {
-                                                            "text": "hoi1"
+                                                            "text": "The other part of the assignment was to create a landings page for the artist that discribes why we as a group choose him as our inspiration. The landings page dispalys the name of the project with a video of smoke. When the user scrolls down they wil see an image of a an art pice and a description of the project. Beneath that section there is an slider that shows all the art pices that inspired us to create our room."
                                                         }
                                                     ]
                                                 }
@@ -395,7 +396,7 @@
                                             "assignment": [
                                                 {
                                                     "title": "Assignment",
-                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                    "text": "The assignment was to create a website were caretakers that volunteers can get updates on the newest practices. The website had to be accesible and easy to use and the information had to be easy to understand"
                                                 }
                                             ],
                                             "description": [
@@ -403,10 +404,10 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "hoi"
+                                                            "text": "This project took place during the first quarter of the second year. The first section is made of a header that displays an easy to use navigation. The banner displays the name of the company and a short description of what the company does.There is also a CTA(call to action) that incentives the user to sign up as a volunteers\n\nThe information section gives clear information about what the company does. There are also four categories to click on to discover more information about that group."
                                                         },
                                                         {
-                                                            "text": "hoi1"
+                                                            "text": "The agenda section shows upcoming events that are taking place. The agenda makes it easy for volunteers to plan things ahead of time. It also shows ted talks for volunteers to get advice. The agenda shows upcoming activities so it can take the burden of the volunteers.\n\nThe contact section shows three cards. In the first card it shows a forms to get intouch with the company. The second card has a google maps location of the company and in the third it shows the adres, email and phone number of the company."
                                                         }
                                                     ]
                                                 }
@@ -454,14 +455,15 @@
                             "flags": [
                                 {
                                     "img": "img/britain.png",
-                                    "language": "english"
+                                    "language": "english",
+                                    "alt": "flag of the UK"
                                 }
                             ]
                         }
                     ],
                     "contact": [
                         {
-                            "image": "",
+                            "image": "/img/Subject 30.png",
                             "alt": "",
                             "links": [
                                 {
@@ -593,45 +595,45 @@
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/banky.png",
+                                                    "img": "img/banky.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/Collection of Happiness.png",
+                                                    "img": "img/bankyDesktopDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/markant.png",
+                                                    "img": "img/bankyMobileDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
                                             "links": [
                                                 {
-                                                    "name": "View Github",
+                                                    "name": "Bekijk Github",
                                                     "link": "",
                                                     "img": "img/github.png"
                                                 },
                                                 {
-                                                    "name": "View Site",
+                                                    "name": "Bekijk Site",
                                                     "link": "",
                                                     "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
-                                                    "title": "Assignment",
-                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                    "title": "Opdracht",
+                                                    "text": "De opdracht in het tweede jaar was het maken van een banktoepassing. Tijdens deze opdracht hebben we geleerd te werken volgens de OOP-methode (Objectgeoriënteerd Programmeren). Daarnaast heb ik geleerd hoe je HTML kunt genereren met behulp van JavaScript."
                                                 }
                                             ],
                                             "description": [
                                                 {
-                                                    "title": "Description ",
+                                                    "title": "Omschrijving ",
                                                     "text": [
                                                         {
-                                                            "text": "hoi"
+                                                            "text": "Deze website moest naadloos kunnen overschakelen tussen twee hoofdschermen: het bankrekeningoverzicht en het scherm voor zelfstandigen (ZZP).\n\nLinkersectie - Bankrekening Overzicht: In deze sectie lag de nadruk op het weergeven van de financiële gegevens van de gebruiker. Gebruikers konden eenvoudig hun inkomsten en uitgaven in één oogopslag bekijken. Een essentieel oogpictogram was geïntegreerd, waarmee gebruikers tijdelijk hun rekeninginformatie konden verbergen om de privacy te waarborgen en ongeautoriseerde toegang te voorkomen. Bovendien konden gebruikers hun rekeningsaldo controleren."
                                                         },
                                                         {
-                                                            "text": "hoi1"
+                                                            "text": "Rechtersectie - Overschakelen tussen Rekeningen: Aan de rechterzijde werden twee knoppen geplaatst om het eenvoudig wisselen tussen twee verschillende bankrekeningen te vergemakkelijken. Hiermee konden gebruikers eenvoudig diverse financiële perspectieven bekijken. Deze opdracht legde de nadruk op de ontwikkeling van een gebruiksvriendelijke en intuïtieve website voor financiële doeleinden, met de focus op het beheren van bankrekeningen en ZZP-gegevens met handige functies zoals privacybescherming en eenvoudig wisselen van rekening."
                                                         }
                                                     ]
                                                 }
@@ -662,45 +664,45 @@
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/banky.png",
+                                                    "img": "img/Collection of Happiness.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/Collection of Happiness.png",
+                                                    "img": "img//COHDesktopDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/markant.png",
+                                                    "img": "img/COHMobileDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
                                             "links": [
                                                 {
-                                                    "name": "View Github",
+                                                    "name": "Bekijk Github",
                                                     "link": "",
                                                     "img": "img/github.png"
                                                 },
                                                 {
-                                                    "name": "View Site",
+                                                    "name": "Bekijk Site",
                                                     "link": "",
                                                     "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
-                                                    "title": "Assignment",
-                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                    "title": "Opdracht",
+                                                    "text": "Collection of happiness was een eindejaarsproject in het tweede jaar. De opdracht was om een webtoepassing te maken voor een podcast genaamd Collection of happiness met behulp van de OOP-methode en HTML te genereren met behulp van JavaScript."
                                                 }
                                             ],
                                             "description": [
                                                 {
-                                                    "title": "Description ",
+                                                    "title": "Omschrijving ",
                                                     "text": [
                                                         {
-                                                            "text": "hoi"
+                                                            "text": "Het project bestaat uit twee zijden. Aan de linkerkant worden vier willekeurig gegenereerde kaarten weergegeven. Wanneer een van de kaarten wordt aangeklikt, wordt de informatie in het modaalvenster aan de rechterzijde geplaatst. Elke kaart toont de datum waarop de podcast is geschreven en de titel van de podcast. Ook wordt er een afbeelding weergegeven die bij de titel van de podcast past."
                                                         },
                                                         {
-                                                            "text": "hoi1"
+                                                            "text": "De rechtersectie bevat een modaal venster waarin de gegevens van de eerste kaart worden weergegeven. Het modaal venster bestaat uit een afbeelding met de titel en datum van de podcast. Het modaal venster bevat ook een beschrijving van de podcast. Verder bevat het modaal venster twee knoppen. De ene knop downloadt een audiobestand van de podcast, en de andere knop linkt naar de podcastwebsite voor meer informatie."
                                                         }
                                                     ]
                                                 }
@@ -745,31 +747,31 @@
                                             ],
                                             "links": [
                                                 {
-                                                    "name": "View Github",
+                                                    "name": "Bekijk Github",
                                                     "link": "",
                                                     "img": "img/github.png"
                                                 },
                                                 {
-                                                    "name": "View Site",
+                                                    "name": "Bekijk Site",
                                                     "link": "",
                                                     "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
-                                                    "title": "Assignment",
-                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                    "title": "Opdracht",
+                                                    "text": "De opdracht was om een interactieve ruimte te bouwen voor Het Upside Down Museum. De kamer moest gebaseerd zijn op een kunstenaar. De kunstenaar die we kozen was Daan Roosegaarde. De kamer moest 2,5 m x 2,5 m zijn en interactief zijn met behulp van software."
                                                 }
                                             ],
                                             "description": [
                                                 {
-                                                    "title": "Description ",
+                                                    "title": "Omschrijving ",
                                                     "text": [
                                                         {
-                                                            "text": "hoi"
+                                                            "text": "De interactieve kant van het project werd gerealiseerd met behulp van een Arduino en ledstrips. Ons idee was om een pad te creëren dat in stappen zou oplichten, omdat we dachten dat in plaats van te worden verteld waar te lopen, de kamer de gebruiker de weg door de ruimte toont. Het idee is gebaseerd op een fietspad dat de kunstenaar in Eindhoven heeft gemaakt."
                                                         },
                                                         {
-                                                            "text": "hoi1"
+                                                            "text": "Het andere deel van de opdracht was het creëren van een landingspagina voor de kunstenaar die beschrijft waarom wij als groep hem hebben gekozen als onze inspiratie. De landingspagina toont de naam van het project met een video van rook. Wanneer de gebruiker naar beneden scrolt, ziet hij een afbeelding van een kunstwerk en een beschrijving van het project. Onder dat gedeelte is er een schuifregelaar die alle kunstwerken toont die ons hebben geïnspireerd om onze kamer te creëren."
                                                         }
                                                     ]
                                                 }
@@ -814,31 +816,31 @@
                                             ],
                                             "links": [
                                                 {
-                                                    "name": "View Github",
+                                                    "name": "Bekijk Github",
                                                     "link": "",
                                                     "img": "img/github.png"
                                                 },
                                                 {
-                                                    "name": "View Site",
+                                                    "name": "Bekijk Site",
                                                     "link": "",
                                                     "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
-                                                    "title": "Assignment",
-                                                    "text": "The assignment was to create a font-end only banking applocation"
+                                                    "title": "Opdracht",
+                                                    "text": "De opdracht was om een website te creëren waarop verzorgers die vrijwilligers zijn, updates kunnen krijgen over de nieuwste werkwijzen. De website moest toegankelijk en gemakkelijk te gebruiken zijn, en de informatie moest gemakkelijk te begrijpen zijn."
                                                 }
                                             ],
                                             "description": [
                                                 {
-                                                    "title": "Description ",
+                                                    "title": "Omschrijving",
                                                     "text": [
                                                         {
-                                                            "text": "hoi"
+                                                            "text": "Dit project vond plaats tijdens het eerste kwartaal van het tweede jaar. Het eerste gedeelte bestaat uit een kop die een gemakkelijk te gebruiken navigatie weergeeft. De banner toont de naam van het bedrijf en een korte beschrijving van wat het bedrijf doet. Er is ook een 'Oproep tot Actie' (CTA) die de gebruiker aanmoedigt om zich aan te melden als vrijwilliger.\n\nHet informatiegedeelte geeft duidelijke informatie over wat het bedrijf doet. Er zijn ook vier categorieën om op te klikken om meer informatie over die groep te ontdekken."
                                                         },
                                                         {
-                                                            "text": "hoi1"
+                                                            "text": "Het agendagedeelte toont aankomende evenementen die plaatsvinden. De agenda maakt het gemakkelijk voor vrijwilligers om dingen vooraf te plannen. Het toont ook TED-talks voor vrijwilligers om advies te krijgen. De agenda toont aankomende activiteiten om de last van de vrijwilligers te verlichten.\n\nHet contactgedeelte toont drie kaarten. In de eerste kaart staat een formulier om contact op te nemen met het bedrijf. De tweede kaart bevat een Google Maps-locatie van het bedrijf en in de derde kaart worden het adres, e-mailadres en telefoonnummer van het bedrijf weergegeven."
                                                         }
                                                     ]
                                                 }

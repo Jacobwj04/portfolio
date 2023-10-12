@@ -234,6 +234,7 @@ class Nav {
         this.flagButton = document.createElement("img");
         this.flagButton.classList = "nav__flag";
         this.flagButton.src = flagData[0].img;
+        this.flagButton.alt = flagData[0].alt;
         this.flagButton.id = flagData[0].language;
         this.sectionThird.appendChild(this.flagButton);
         this.flagButton.onclick = () => {
@@ -379,6 +380,7 @@ class Banner {
         this.widgetImg = document.createElement("img");
         this.widgetImg.classList = "banner__widgetImg";
         this.widgetImg.src = data[0].background;
+        this.widgetImg.alt = data[0].alt;
         this.widgetFigureOne.appendChild(this.widgetImg);
 
         for (let i = 0; i < iconData.length; i++) {
