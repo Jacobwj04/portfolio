@@ -7,10 +7,6 @@
                         {
                             "links": [
                                 {
-                                    "title": "Home",
-                                    "link": ""
-                                },
-                                {
                                     "title": "Skills",
                                     "link": "Skills"
                                 },
@@ -439,10 +435,6 @@
                     "nav": [
                         {
                             "links": [
-                                {
-                                    "title": "Home",
-                                    "link": ""
-                                },
                                 {
                                     "title": "Skills",
                                     "link": "Skills"

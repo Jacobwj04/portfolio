@@ -219,7 +219,7 @@ class Nav {
         for (let i = 0; i < navLinks.length; i++) {
             this.link = document.createElement("a");
             this.link.classList = "nav__links";
-            this.link.href = "index.html#" + navLinks[i].link
+            this.link.href = "#" + navLinks[i].link
             this.link.innerText = navLinks[i].title;
             this.sectionSecond.appendChild(this.link);
         }
@@ -438,7 +438,7 @@ class Banner {
         this.widgetButton = document.createElement("a");
         this.widgetButton.classList = "banner__widgetButton";
         this.widgetButton.innerText = buttonData[0].buttonText;
-        this.widgetButton.href = "index.html#" + buttonData[0].link;
+        this.widgetButton.href = "#" + buttonData[0].link;
         this.widgetButtonContainer.appendChild(this.widgetButton);
     }
 }
@@ -696,6 +696,7 @@ class Modal {
             this.link.classList = "modal__link";
             this.link.innerText = linkData[i].name;
             this.link.href = linkData[i].link;
+            this.link.target = "_blank";
 
             this.linkModal.appendChild(this.linkList);
             this.linkList.appendChild(this.linkImg);
