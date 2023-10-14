@@ -557,6 +557,8 @@ class Projects {
         this.body.banner.htmlElement.style.display = "none";
         this.body.skills.htmlElement.style.display = "none";
         this.body.projects.htmlElement.style.display = "none";
+
+        window.scrollTo(0, 0);
     }
 
     modalInactive() {
