@@ -119,27 +119,38 @@
                                 {
                                     "img": "img/html.png",
                                     "title": "HTML 5",
-                                    "alt": "image of HTML 5 logo"
+                                    "alt": "image of HTML 5 logo",
+                                    "timeFrame": "2 years"
                                 },
                                 {
                                     "img": "img/css.png",
                                     "title": "CSS",
-                                    "alt": "image of CSS logo"
+                                    "alt": "image of CSS logo",
+                                    "timeFrame": "2 years"
                                 },
                                 {
                                     "img": "img/js.png",
                                     "title": "JS",
-                                    "alt": "image of Java script Logo"
+                                    "alt": "image of Java script Logo",
+                                    "timeFrame": "2 years"
                                 },
                                 {
                                     "img": "img/php.png",
                                     "title": "PHP",
-                                    "alt": "image of PHP logo"
+                                    "alt": "image of PHP logo",
+                                    "timeFrame": "1.5 years"
                                 },
                                 {
                                     "img": "img/sass.png",
                                     "title": "SASS",
-                                    "alt": "image of SASS logo"
+                                    "alt": "image of SASS logo",
+                                    "timeFrame": "1 years"
+                                },
+                                {
+                                    "img": "img/swift.png",
+                                    "title": "Swift",
+                                    "alt": "image of SASS logo",
+                                    "timeFrame": "4 months"
                                 }
                             ]
                         }
@@ -262,7 +273,7 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "the project is made of two sides the left side shows four randomly generated cards. When one of the cards the is clicked the infomation is put into the modal in the right section. Each card displays the date that the podcast was writen and the title of the podcast it also displays an image that fits the title of the podcats."
+                                                            "text": "The project is made of two sides the left side shows four randomly generated cards. When one of the cards the is clicked the infomation is put into the modal in the right section. Each card displays the date that the podcast was writen and the title of the podcast it also displays an image that fits the title of the podcats."
                                                         },
                                                         {
                                                             "text": "The right section has a modal in it that displays the data from the first card. The modal is made up of an image with the title and date of the podcast. The modal also has a description of the podcast. The modal also has two buttons one of the button downloads an audio file of the podcast and the other button links to the podcast site for more information."
@@ -560,27 +571,38 @@
                                 {
                                     "img": "img/html.png",
                                     "title": "HTML 5",
-                                    "alt": "image of HTML 5 logo"
+                                    "alt": "image of HTML 5 logo",
+                                    "timeFrame": "2 jaar"
                                 },
                                 {
                                     "img": "img/css.png",
                                     "title": "CSS",
-                                    "alt": "image of CSS logo"
+                                    "alt": "image of CSS logo",
+                                    "timeFrame": "2 jaar"
                                 },
                                 {
                                     "img": "img/js.png",
                                     "title": "JS",
-                                    "alt": "image of Java script Logo"
+                                    "alt": "image of Java script Logo",
+                                    "timeFrame": "2 jaar"
                                 },
                                 {
                                     "img": "img/php.png",
                                     "title": "PHP",
-                                    "alt": "image of PHP logo"
+                                    "alt": "image of PHP logo",
+                                    "timeFrame": "1.5 jaar"
                                 },
                                 {
                                     "img": "img/sass.png",
                                     "title": "SASS",
-                                    "alt": "image of SASS logo"
+                                    "alt": "image of SASS logo",
+                                    "timeFrame": "1 jaar"
+                                },
+                                {
+                                    "img": "img/swift.png",
+                                    "title": "Swift",
+                                    "alt": "image of SASS logo",
+                                    "timeFrame": "4 maanden"
                                 }
                             ]
                         }

@@ -481,9 +481,14 @@ class Skills {
             this.title.classList = "skills__title";
             this.title.innerText = data[i].title;
 
+            this.timeFrame = document.createElement("p");
+            this.timeFrame.classList = "skills__timeFrame";
+            this.timeFrame.innerText = data[i].timeFrame;
+
             this.container.appendChild(this.listItem);
             this.listItem.appendChild(this.img);
             this.listItem.appendChild(this.title);
+            this.listItem.appendChild(this.timeFrame);
         }
     }
 }

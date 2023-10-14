@@ -35,7 +35,7 @@
         justify-content: center;
         flex-direction: column;
         border-radius: 1rem;
-        gap: 3rem;
+        gap: 1rem;
         transition: all 0.4s;
         z-index: 99;
 
@@ -52,12 +52,18 @@
     }
 
     &__logo {
-        width: 7rem;
-        height: 7rem;
+        width: 8rem;
+        height: 8rem;
     }
 
     &__title {
         font-size: 120%;
+        font-weight: 300;
+    }
+
+    &__timeFrame{
+        color: #19A7CE;
+        font-size: 90%;
         font-weight: 300;
     }
 }

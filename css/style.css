@@ -557,7 +557,7 @@ body {
   justify-content: center;
   flex-direction: column;
   border-radius: 1rem;
-  gap: 3rem;
+  gap: 1rem;
   transition: all 0.4s;
   z-index: 99;
 }
@@ -571,11 +571,16 @@ body {
   display: flex;
 }
 .skills__logo {
-  width: 7rem;
-  height: 7rem;
+  width: 8rem;
+  height: 8rem;
 }
 .skills__title {
   font-size: 120%;
+  font-weight: 300;
+}
+.skills__timeFrame {
+  color: #19A7CE;
+  font-size: 90%;
   font-weight: 300;
 }
 
