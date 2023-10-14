@@ -240,6 +240,11 @@ body {
     gap: 4rem;
   }
 }
+@media screen and (max-width: 90rem) {
+  .banner {
+    height: calc(100vh - 8rem - 2rem);
+  }
+}
 @media screen and (max-width: 59.375rem) {
   .banner {
     height: auto;
@@ -731,7 +736,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 3rem;
 }
 .modal__widgetContainer {
   width: 100%;
@@ -940,6 +945,9 @@ body {
   }
 }
 @media screen and (max-width: 50rem) {
+  .modal__slider {
+    height: 30rem;
+  }
   .modal__sliderButtonContainer {
     width: 20%;
   }
@@ -1047,17 +1055,19 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.modal__assignmentContainer {
   overflow-y: scroll;
   scrollbar-width: thin;
-  scrollbar-color: blue orange;
+  scrollbar-color: rgba(147, 197, 231, 0.5) transparent;
 }
-.modal__assignment::-webkit-scrollbar {
+.modal__assignmentContainer::-webkit-scrollbar {
   width: 0.9rem;
 }
-.modal__assignment::-webkit-scrollbar-track {
+.modal__assignmentContainer::-webkit-scrollbar-track {
   background: transparent;
 }
-.modal__assignment::-webkit-scrollbar-thumb {
+.modal__assignmentContainer::-webkit-scrollbar-thumb {
   background-color: rgba(147, 197, 231, 0.5);
   border-radius: 0.5rem;
   border: 0.1rem solid #8CC4EA;
@@ -1070,6 +1080,14 @@ body {
   color: #414141;
 }
 
+@media screen and (max-width: 90rem) {
+  .modal__assignment {
+    height: 40%;
+  }
+  .modal__assignmentH2 {
+    font-size: 110%;
+  }
+}
 @media screen and (max-width: 68.75rem) {
   .modal__assignment {
     height: auto;
@@ -1079,6 +1097,11 @@ body {
   }
   .modal__assignmentP {
     font-size: 90%;
+  }
+}
+@media screen and (max-width: 50rem) {
+  .modal__assignment {
+    height: 20rem;
   }
 }
 .modal__description {
@@ -1115,6 +1138,14 @@ body {
   color: #414141;
 }
 
+@media screen and (max-width: 90rem) {
+  .modal__description {
+    height: calc(60% - 1.6rem);
+  }
+  .modal__descriptionH2 {
+    font-size: 110%;
+  }
+}
 @media screen and (max-width: 68.75rem) {
   .modal__description {
     height: auto;
@@ -1124,6 +1155,11 @@ body {
   }
   .modal__descriptionP {
     font-size: 90%;
+  }
+}
+@media screen and (max-width: 50rem) {
+  .modal__description {
+    height: 40rem;
   }
 }
 .nav__menuButtonContainer {

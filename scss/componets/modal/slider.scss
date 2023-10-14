@@ -106,6 +106,9 @@
 
 @media screen and (max-width: 50rem) {
     .modal{
+        &__slider{
+            height: 30rem;
+        }
 
         &__sliderButtonContainer{
             width: 20%;

@@ -4,7 +4,7 @@
 .modal {
     &__description {
         width: 100%;
-        height: 70%;
+        height: calc(100% - 30%);
         @include mixins.defaultBorder;
         border-radius: 2rem;
         padding: 2rem;
@@ -43,6 +43,18 @@
     }
 }
 
+@media screen and (max-width: 90rem) {
+    .modal {
+        &__description {
+            height: calc(60% - 1.6rem);
+        }
+
+        &__descriptionH2 {
+            font-size: 110%;
+        }
+    }
+}
+
 
 @media screen and (max-width: 68.75rem) {
     .modal {
@@ -57,6 +69,14 @@
 
         &__descriptionP {
             font-size: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    .modal{
+        &__description{
+            height: 40rem;
         }
     }
 }

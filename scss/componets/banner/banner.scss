@@ -69,6 +69,12 @@
     }
 }
 
+@media screen and (max-width: 90rem){
+    .banner{
+        height: calc(100vh - 8rem - 2rem);
+    }
+}
+
 @media screen and (max-width: 59.375rem){
     .banner{
         height: auto;

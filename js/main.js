@@ -721,11 +721,15 @@ class Modal {
 
         this.assignment.appendChild(this.assignmentH2);
 
+        this.assignmentPContainer = document.createElement("div");
+        this.assignmentPContainer.classList = "modal__assignmentContainer";
+        this.assignment.appendChild(this.assignmentPContainer);
+
         this.assignmentParagraph = document.createElement("p");
         this.assignmentParagraph.classList = "modal__assignmentP";
         this.assignmentParagraph.innerText = assignmentData[0].text
 
-        this.assignment.appendChild(this.assignmentParagraph);
+        this.assignmentPContainer.appendChild(this.assignmentParagraph);
 
         let descriptionData = data[0]["description"];
 
