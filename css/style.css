@@ -1047,6 +1047,20 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+.modal__assignment::-webkit-scrollbar {
+  width: 0.9rem;
+}
+.modal__assignment::-webkit-scrollbar-track {
+  background: transparent;
+}
+.modal__assignment::-webkit-scrollbar-thumb {
+  background-color: rgba(147, 197, 231, 0.5);
+  border-radius: 0.5rem;
+  border: 0.1rem solid #8CC4EA;
 }
 .modal__assignmentH2 {
   color: #19A7CE;
@@ -1080,6 +1094,22 @@ body {
 .modal__descriptionH2 {
   color: #19A7CE;
   font-weight: 400;
+}
+.modal__descriptionContainer {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(147, 197, 231, 0.5) transparent;
+}
+.modal__descriptionContainer::-webkit-scrollbar {
+  width: 0.9rem;
+}
+.modal__descriptionContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+.modal__descriptionContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(147, 197, 231, 0.5);
+  border-radius: 0.5rem;
+  border: 0.1rem solid #8CC4EA;
 }
 .modal__descriptionP {
   color: #414141;

@@ -710,7 +710,7 @@ class Modal {
 
         this.main.appendChild(this.sectionRight);
 
-        this.assignment = document.createElement("div");
+        this.assignment = document.createElement("section");
         this.assignment.classList = "modal__assignment";
 
         this.sectionRight.appendChild(this.assignment);
@@ -729,7 +729,7 @@ class Modal {
 
         let descriptionData = data[0]["description"];
 
-        this.description = document.createElement("div");
+        this.description = document.createElement("section");
         this.description.classList = "modal__description";
 
         this.sectionRight.appendChild(this.description);
@@ -737,14 +737,17 @@ class Modal {
         this.descriptionH2 = document.createElement("h2");
         this.descriptionH2.classList = "modal__descriptionH2";
         this.descriptionH2.innerText = descriptionData[0].title;
-
         this.description.appendChild(this.descriptionH2);
+
+        this.descriptionPContainer = document.createElement("div");
+        this.descriptionPContainer.classList = "modal__descriptionContainer";
+        this.description.appendChild(this.descriptionPContainer);
 
         for (let i = 0; i < descriptionData[0].text.length; i++) {
             this.descriptionParagraph = document.createElement("p");
             this.descriptionParagraph.classList = "modal__descriptionP";
             this.descriptionParagraph.innerText = descriptionData[0].text[i].text
-            this.description.appendChild(this.descriptionParagraph);
+            this.descriptionPContainer.appendChild(this.descriptionParagraph);
         }
     }
 }

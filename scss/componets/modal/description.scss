@@ -18,24 +18,45 @@
         font-weight: 400;
     }
 
+    &__descriptionContainer {
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(147, 197, 231, 0.5) transparent;
+
+        &::-webkit-scrollbar {
+            width: 0.9rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(147, 197, 231, 0.5);
+            border-radius: 0.5rem;
+            border: 0.1rem solid #8CC4EA;
+        }
+    }
+
     &__descriptionP {
         color: map-get(colors.$textColor, "colorOne");
     }
 }
 
-@media screen and (max-width: 68.75rem) {
-    .modal{
 
-        &__description{
+@media screen and (max-width: 68.75rem) {
+    .modal {
+
+        &__description {
             height: auto;
         }
-        
-        &__descriptionH2{
+
+        &__descriptionH2 {
             font-size: 110%;
         }
 
-        &__descriptionP{
+        &__descriptionP {
             font-size: 90%;
         }
-    }   
+    }
 }
