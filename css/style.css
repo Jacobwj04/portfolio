@@ -286,6 +286,7 @@ body {
     height: 70%;
     align-items: center;
     border-top-right-radius: 2rem;
+    border-bottom-right-radius: 0;
   }
   .banner__widgetImg {
     height: 90%;
@@ -701,9 +702,16 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 97rem) {
+  .projects__project {
+    width: 45%;
+    height: 35rem;
+  }
+}
 @media screen and (max-width: 75rem) {
   .projects__project {
     width: auto;
+    height: auto;
   }
 }
 @media screen and (max-width: 37.5rem) {

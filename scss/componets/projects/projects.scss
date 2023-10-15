@@ -91,11 +91,21 @@
     }
 }
 
+@media screen and (max-width: 97rem){
+    .projects{
+        &__project {
+            width: 45%;
+            height: 35rem;
+        }
+    }
+}
+
 @media screen and (max-width: 75rem) {
     .projects{
         
         &__project{
             width: auto;
+            height: auto;
         }
     }
 }
