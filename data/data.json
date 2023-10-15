@@ -180,19 +180,14 @@
                                             "links": [
                                                 {
                                                     "name": "View Github",
-                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "link": "https://github.com/Jacobwj04/Clima",
                                                     "img": "img/github.png"
-                                                },
-                                                {
-                                                    "name": "View Site",
-                                                    "link": "https://jacobwj04.github.io/banky",
-                                                    "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
                                                     "title": "Assignment",
-                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
+                                                    "text": "The assignment was to learn how to fetch data within swift and display it. Also the app had to have the ability to use the users location to display the weather at there current location."
                                                 }
                                             ],
                                             "description": [
@@ -200,10 +195,10 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
+                                                            "text": "The app is split into two components the first is the top menu bar. On the left you will see a location icon when pressed it will retrive the location of the user and send it to the API and then display it. In the middle of the menu there is a search bar the user can type any city in then the data will be sent to the API and then it will be dispalyed. On the right side of the menu ther is a search icon when the users has typed the city in the user can either press return key on thier keyboard or press the search icon in the menu.\n\n"
                                                         },
                                                         {
-                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
+                                                            "text": "The second component is where all the data is displayed. The first section of the component is a SF symbol that changes based on the wheather. It ueses a switch function to check the data that comes back from the API to dispaly the correct image. The second section displays the current temprature that comes back from the API. The last section displays the city that the user is in or the city that the uers searched."
                                                         }
                                                     ]
                                                 }
@@ -382,19 +377,14 @@
                                             "links": [
                                                 {
                                                     "name": "View Github",
-                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "link": "https://github.com/Jacobwj04/BMI-calculator",
                                                     "img": "img/github.png"
-                                                },
-                                                {
-                                                    "name": "View Site",
-                                                    "link": "https://jacobwj04.github.io/banky",
-                                                    "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
                                                     "title": "Assignment",
-                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
+                                                    "text": "The assignment was to learn how to get data from slider and use that data to claculate the users BMI also it was to learn how to make modals."
                                                 }
                                             ],
                                             "description": [
@@ -402,10 +392,10 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
+                                                            "text": "The app is made of two components the first one is where the user fill in thier wieght and height. The first slider is where the user fills in thier height. Above both slider is a text field that updates as the user moves the slider so that the user knows what weight or height they are filling in. There is also a button that when pressed calculates the BMI of the user.\n\n"
                                                         },
                                                         {
-                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
+                                                            "text": "The second component is a modal that appears when the user presses the calculate button. Within the modal it displays the users BMI and a message that says if it is too low, too hieght or ideal. The backgroud also changes based on the outcome of the users BMI."
                                                         }
                                                     ]
                                                 }
@@ -748,30 +738,25 @@
                                             "links": [
                                                 {
                                                     "name": "View Github",
-                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "link": "https://github.com/Jacobwj04/Clima",
                                                     "img": "img/github.png"
-                                                },
-                                                {
-                                                    "name": "View Site",
-                                                    "link": "https://jacobwj04.github.io/banky",
-                                                    "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
-                                                    "title": "Assignment",
-                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
+                                                    "title": "Opdracht",
+                                                    "text": "De opdracht was om te leren hoe je gegevens kunt ophalen in Swift en deze kunt weergeven. Bovendien moest de app de mogelijkheid hebben om de locatie van de gebruiker te gebruiken om het weer op hun huidige locatie weer te geven."
                                                 }
                                             ],
                                             "description": [
                                                 {
-                                                    "title": "Description ",
+                                                    "title": "Omschrijving ",
                                                     "text": [
                                                         {
-                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
+                                                            "text": "De app is opgesplitst in twee componenten. De eerste is de bovenste menubalk. Aan de linkerkant zie je een locatiepictogram. Wanneer erop wordt gedrukt, haalt het de locatie van de gebruiker op en stuurt deze naar de API en toont vervolgens de gegevens. In het midden van het menu is er een zoekbalk waar de gebruiker elke stad kan typen. De ingevoerde gegevens worden naar de API gestuurd en vervolgens weergegeven. Aan de rechterkant van het menu bevindt zich een zoekpictogram. Nadat de gebruiker de stad heeft ingevoerd, kan deze de Return-toets op het toetsenbord indrukken of op het zoekpictogram in het menu drukken.\n\n"
                                                         },
                                                         {
-                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
+                                                            "text": "Het tweede onderdeel is waar alle gegevens worden weergegeven. Het eerste gedeelte van dit onderdeel bevat een SF-symbool dat verandert op basis van het weer. Het maakt gebruik van een switch-functie om de gegevens die van de API terugkomen te controleren en de juiste afbeelding weer te geven. Het tweede gedeelte toont de huidige temperatuur die uit de API komt. Het laatste gedeelte toont de stad waarin de gebruiker zich bevindt of de stad die de gebruiker heeft gezocht."
                                                         }
                                                     ]
                                                 }
@@ -939,45 +924,36 @@
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/banky.webp",
+                                                    "img": "img/BMI1.PNG",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/bankyDesktopDesign.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/bankyMobileDesign.webp",
+                                                    "img": "img/BMI2.PNG",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
                                             "links": [
                                                 {
                                                     "name": "View Github",
-                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "link": "https://github.com/Jacobwj04/BMI-calculator",
                                                     "img": "img/github.png"
-                                                },
-                                                {
-                                                    "name": "View Site",
-                                                    "link": "https://jacobwj04.github.io/banky",
-                                                    "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
-                                                    "title": "Assignment",
-                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
+                                                    "title": "Opdracht",
+                                                    "text": "De opdracht was om te leren hoe je gegevens van een schuifregelaar kunt verkrijgen en deze gegevens kunt gebruiken om de BMI van de gebruiker te berekenen. Daarnaast was het de bedoeling om te leren hoe je modals kunt maken."
                                                 }
                                             ],
                                             "description": [
                                                 {
-                                                    "title": "Description ",
+                                                    "title": "Omschrijving ",
                                                     "text": [
                                                         {
-                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
+                                                            "text": "De app bestaat uit twee onderdelen. Het eerste deel is waar de gebruiker hun gewicht en lengte invult. De eerste schuifregelaar is waar de gebruiker hun lengte invult. Boven beide schuifregelaars bevindt zich een tekstveld dat wordt bijgewerkt terwijl de gebruiker de schuifregelaar verplaatst, zodat de gebruiker weet welk gewicht of lengte ze invullen. Er is ook een knop die, wanneer ingedrukt, de BMI van de gebruiker berekent."
                                                         },
                                                         {
-                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
+                                                            "text": "Het tweede onderdeel is een modaal venster dat verschijnt wanneer de gebruiker op de berekenknop drukt. Binnen het modale venster wordt de BMI van de gebruiker weergegeven, samen met een bericht dat aangeeft of deze te laag, te hoog of ideaal is. De achtergrond verandert ook op basis van het resultaat van de BMI van de gebruiker."
                                                         }
                                                     ]
                                                 }

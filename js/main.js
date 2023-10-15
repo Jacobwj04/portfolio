@@ -12,7 +12,6 @@ class Api {
                 return response.json();
             }).then((data) => {
                 this.data = data.data;
-                console.log(this.data)
             })
         return this.data;
     }
@@ -120,7 +119,6 @@ class Nav {
 
         this.htmlElement = document.createElement("nav");
         this.htmlElement.classList = "nav";
-        console.log(this.data);
 
         this.renderSectionOne();
         this.renderSectionSecond(this.data);
@@ -355,7 +353,6 @@ class Banner {
         let widgetData = data[0]["widgets"];
         let iconData = data[0]["icons"];
         let buttonData = data[0]["button"];
-        console.log(iconData);
 
         this.widget = document.createElement("ul");
         this.widget.classList = "banner__widget";

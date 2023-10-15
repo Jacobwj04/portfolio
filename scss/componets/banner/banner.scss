@@ -66,10 +66,15 @@
             flex-wrap: wrap;
             gap: 4rem;
         }
+
+        &__widgetImg{
+            height: auto;
+            width: 40%;
+        }
     }
 }
 
-@media screen and (max-width: 90rem){
+@media screen and (max-width: 96.875rem){
     .banner{
         height: calc(100vh - 8rem - 2rem);
     }

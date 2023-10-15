@@ -258,8 +258,12 @@ body {
     flex-wrap: wrap;
     gap: 4rem;
   }
+  .banner__widgetImg {
+    height: auto;
+    width: 40%;
+  }
 }
-@media screen and (max-width: 90rem) {
+@media screen and (max-width: 96.875rem) {
   .banner {
     height: calc(100vh - 8rem - 2rem);
   }
@@ -342,6 +346,11 @@ body {
   justify-content: center;
 }
 
+@media screen and (max-width: 93.75rem) {
+  .banner__iconContainer {
+    width: 60%;
+  }
+}
 @media screen and (max-width: 49.625rem) {
   .banner__iconsContainer {
     width: 15rem;

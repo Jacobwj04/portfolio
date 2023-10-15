@@ -33,6 +33,14 @@
     }
 }
 
+@media screen and (max-width: 93.75rem){
+    .banner{
+        &__iconContainer{
+            width: 60%;
+        }
+    }
+}
+
 @media screen and (max-width: 49.625rem){
     .banner{
         &__iconsContainer{
