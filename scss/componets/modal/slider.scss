@@ -98,6 +98,10 @@
 @media screen and (max-width: 68.75rem) {
     .modal{
 
+        &__slider{
+            height: 30rem;
+        }
+
         &__sliderImg{
             border-radius: 2rem;
         }
@@ -106,9 +110,6 @@
 
 @media screen and (max-width: 50rem) {
     .modal{
-        &__slider{
-            height: 30rem;
-        }
 
         &__sliderButtonContainer{
             width: 20%;

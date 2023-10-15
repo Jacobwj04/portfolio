@@ -59,7 +59,7 @@
     .modal{
 
         &__assignment{
-            height: auto;
+            height: 20rem;
         }
         
         &__assignmentH2{
@@ -70,12 +70,4 @@
             font-size: 90%;
         }
     }   
-}
-
-@media screen and (max-width: 50rem) {
-    .modal{
-        &__assignment{
-            height: 20rem;
-        }
-    }
 }

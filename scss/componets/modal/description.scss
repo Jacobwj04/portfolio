@@ -59,8 +59,8 @@
 @media screen and (max-width: 68.75rem) {
     .modal {
 
-        &__description {
-            height: auto;
+        &__description{
+            height: 40rem;
         }
 
         &__descriptionH2 {
@@ -69,14 +69,6 @@
 
         &__descriptionP {
             font-size: 90%;
-        }
-    }
-}
-
-@media screen and (max-width: 50rem) {
-    .modal{
-        &__description{
-            height: 40rem;
         }
     }
 }

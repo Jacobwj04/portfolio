@@ -83,6 +83,10 @@
 
         &__container {
             width: 100%;
+            position: fixed;
+            z-index: 99;
+            background: white;
+            height: 8rem;
         }
 
         &__section {

@@ -161,6 +161,139 @@
                             "id": "Projects",
                             "widgets": [
                                 {
+                                    "title": "Clima",
+                                    "img": "img/Climacover.png",
+                                    "alt": "this is an image of a bank app that I made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/Clima1.PNG",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/Clima2.PNG",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "https://jacobwj04.github.io/banky",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
+                                                        },
+                                                        {
+                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/swift.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "The walking path",
+                                    "img": "img/The walking Path.png",
+                                    "alt": "this is an image of a site that i made for an interactie room",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/The walking Path.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/The walking Path2.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/The walking Path3.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/The walking Path4.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/The walking Path4.jpg",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "https://github.com/Jacobwj04/The-walking-path",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "https://jacobwj04.github.io/The-walking-path",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment was to build an interactive for The Upside Down Museum. The room had to be based on an artist. The artist that we choose was Daan Roosegaarde. The room had to be 2.5 m x 2.5 m and interactive using software."
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "The interactive side of the project was achieved using an arduino and led strips. Our idea was to make a path that would light up in incrimends because we thought instead of being told were to walk the room shows the user the way through the room. The idea is based on a cycle path that the artist made in Eindhoven."
+                                                        },
+                                                        {
+                                                            "text": "The other part of the assignment was to create a landings page for the artist that discribes why we as a group choose him as our inspiration. The landings page dispalys the name of the project with a video of smoke. When the user scrolls down they wil see an image of a an art pice and a description of the project. Beneath that section there is an slider that shows all the art pices that inspired us to create our room."
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
                                     "title": "Banky",
                                     "img": "img/banky.webp",
                                     "alt": "this is an image of a bank app that I made",
@@ -230,6 +363,62 @@
                                     ]
                                 },
                                 {
+                                    "title": "BMI Calculator",
+                                    "img": "img/BMIcover3.png",
+                                    "alt": "this is an image of a bank app that I made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/BMI1.PNG",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/BMI2.PNG",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "https://jacobwj04.github.io/banky",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
+                                                        },
+                                                        {
+                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/swift.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
                                     "title": "Collection of happiness",
                                     "img": "img/Collection of Happiness.webp",
                                     "alt": "this is an image of a podcast site that i made",
@@ -242,7 +431,7 @@
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img//COHDesktopDesign.webp",
+                                                    "img": "img/COHDesktopDesign.png",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
@@ -277,83 +466,6 @@
                                                         },
                                                         {
                                                             "text": "The right section has a modal in it that displays the data from the first card. The modal is made up of an image with the title and date of the podcast. The modal also has a description of the podcast. The modal also has two buttons one of the button downloads an audio file of the podcast and the other button links to the podcast site for more information."
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "language": [
-                                                {
-                                                    "img": "img/html.png"
-                                                },
-                                                {
-                                                    "img": "img/css.png"
-                                                },
-                                                {
-                                                    "img": "img/js.png"
-                                                },
-                                                {
-                                                    "img": "img/sass.png"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": "The walking path",
-                                    "img": "img/The walking Path.png",
-                                    "alt": "this is an image of a site that i made for an interactie room",
-                                    "buttonText": "More Info",
-                                    "modal": [
-                                        {
-                                            "slider": [
-                                                {
-                                                    "img": "img/The walking Path.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/The walking Path2.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/The walking Path3.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/The walking Path4.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/The walking Path4.jpg",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                }
-                                            ],
-                                            "links": [
-                                                {
-                                                    "name": "View Github",
-                                                    "link": "https://github.com/Jacobwj04/The-walking-path",
-                                                    "img": "img/github.png"
-                                                },
-                                                {
-                                                    "name": "View Site",
-                                                    "link": "https://jacobwj04.github.io/The-walking-path",
-                                                    "img": "img/site.png"
-                                                }
-                                            ],
-                                            "assignment": [
-                                                {
-                                                    "title": "Assignment",
-                                                    "text": "The assignment was to build an interactive for The Upside Down Museum. The room had to be based on an artist. The artist that we choose was Daan Roosegaarde. The room had to be 2.5 m x 2.5 m and interactive using software."
-                                                }
-                                            ],
-                                            "description": [
-                                                {
-                                                    "title": "Description ",
-                                                    "text": [
-                                                        {
-                                                            "text": "The interactive side of the project was achieved using an arduino and led strips. Our idea was to make a path that would light up in incrimends because we thought instead of being told were to walk the room shows the user the way through the room. The idea is based on a cycle path that the artist made in Eindhoven."
-                                                        },
-                                                        {
-                                                            "text": "The other part of the assignment was to create a landings page for the artist that discribes why we as a group choose him as our inspiration. The landings page dispalys the name of the project with a video of smoke. When the user scrolls down they wil see an image of a an art pice and a description of the project. Beneath that section there is an slider that shows all the art pices that inspired us to create our room."
                                                         }
                                                     ]
                                                 }
@@ -613,6 +725,143 @@
                             "id": "Projects",
                             "widgets": [
                                 {
+                                    "title": "Clima",
+                                    "img": "img/Climacover.png",
+                                    "alt": "this is an image of a bank app that I made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/bankyDesktopDesign.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/bankyMobileDesign.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "https://jacobwj04.github.io/banky",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
+                                                        },
+                                                        {
+                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/swift.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "The walking path",
+                                    "img": "img/The walking Path.png",
+                                    "alt": "this is an image of a site that i made for an interactie room",
+                                    "buttonText": "Meer Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/The walking Path.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/The walking Path2.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/The walking Path3.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/The walking Path4.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/The walking Path4.jpg",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "Bekijk Github",
+                                                    "link": "https://github.com/Jacobwj04/The-walking-path",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "Bekijk Site",
+                                                    "link": "https://jacobwj04.github.io/The-walking-path",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Opdracht",
+                                                    "text": "De opdracht was om een interactieve ruimte te bouwen voor Het Upside Down Museum. De kamer moest gebaseerd zijn op een kunstenaar. De kunstenaar die we kozen was Daan Roosegaarde. De kamer moest 2,5 m x 2,5 m zijn en interactief zijn met behulp van software."
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Omschrijving ",
+                                                    "text": [
+                                                        {
+                                                            "text": "De interactieve kant van het project werd gerealiseerd met behulp van een Arduino en ledstrips. Ons idee was om een pad te creëren dat in stappen zou oplichten, omdat we dachten dat in plaats van te worden verteld waar te lopen, de kamer de gebruiker de weg door de ruimte toont. Het idee is gebaseerd op een fietspad dat de kunstenaar in Eindhoven heeft gemaakt."
+                                                        },
+                                                        {
+                                                            "text": "Het andere deel van de opdracht was het creëren van een landingspagina voor de kunstenaar die beschrijft waarom wij als groep hem hebben gekozen als onze inspiratie. De landingspagina toont de naam van het project met een video van rook. Wanneer de gebruiker naar beneden scrolt, ziet hij een afbeelding van een kunstwerk en een beschrijving van het project. Onder dat gedeelte is er een schuifregelaar die alle kunstwerken toont die ons hebben geïnspireerd om onze kamer te creëren."
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/html.png"
+                                                },
+                                                {
+                                                    "img": "img/css.png"
+                                                },
+                                                {
+                                                    "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/sass.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
                                     "title": "Banky",
                                     "img": "img/banky.png",
                                     "alt": "this is an image of a bank app that i made",
@@ -682,6 +931,66 @@
                                     ]
                                 },
                                 {
+                                    "title": "BMI Calculator",
+                                    "img": "img/BMIcover3.png",
+                                    "alt": "this is an image of a bank app that I made",
+                                    "buttonText": "More Info",
+                                    "modal": [
+                                        {
+                                            "slider": [
+                                                {
+                                                    "img": "img/banky.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/bankyDesktopDesign.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/bankyMobileDesign.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                }
+                                            ],
+                                            "links": [
+                                                {
+                                                    "name": "View Github",
+                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "img": "img/github.png"
+                                                },
+                                                {
+                                                    "name": "View Site",
+                                                    "link": "https://jacobwj04.github.io/banky",
+                                                    "img": "img/site.png"
+                                                }
+                                            ],
+                                            "assignment": [
+                                                {
+                                                    "title": "Assignment",
+                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
+                                                }
+                                            ],
+                                            "description": [
+                                                {
+                                                    "title": "Description ",
+                                                    "text": [
+                                                        {
+                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
+                                                        },
+                                                        {
+                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "language": [
+                                                {
+                                                    "img": "img/swift.png"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
                                     "title": "Collection of happiness",
                                     "img": "img/Collection of Happiness.png",
                                     "alt": "this is an image of a podcast site that i made",
@@ -694,7 +1003,7 @@
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img//COHDesktopDesign.webp",
+                                                    "img": "img/COHDesktopDesign.png",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
@@ -729,83 +1038,6 @@
                                                         },
                                                         {
                                                             "text": "De rechtersectie bevat een modaal venster waarin de gegevens van de eerste kaart worden weergegeven. Het modaal venster bestaat uit een afbeelding met de titel en datum van de podcast. Het modaal venster bevat ook een beschrijving van de podcast. Verder bevat het modaal venster twee knoppen. De ene knop downloadt een audiobestand van de podcast, en de andere knop linkt naar de podcastwebsite voor meer informatie."
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "language": [
-                                                {
-                                                    "img": "img/html.png"
-                                                },
-                                                {
-                                                    "img": "img/css.png"
-                                                },
-                                                {
-                                                    "img": "img/js.png"
-                                                },
-                                                {
-                                                    "img": "img/sass.png"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": "The walking path",
-                                    "img": "img/The walking Path.png",
-                                    "alt": "this is an image of a site that i made for an interactie room",
-                                    "buttonText": "Meer Info",
-                                    "modal": [
-                                        {
-                                            "slider": [
-                                                {
-                                                    "img": "img/The walking Path.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/The walking Path2.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/The walking Path3.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/The walking Path4.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/The walking Path4.jpg",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                }
-                                            ],
-                                            "links": [
-                                                {
-                                                    "name": "Bekijk Github",
-                                                    "link": "https://github.com/Jacobwj04/The-walking-path",
-                                                    "img": "img/github.png"
-                                                },
-                                                {
-                                                    "name": "Bekijk Site",
-                                                    "link": "https://jacobwj04.github.io/The-walking-path",
-                                                    "img": "img/site.png"
-                                                }
-                                            ],
-                                            "assignment": [
-                                                {
-                                                    "title": "Opdracht",
-                                                    "text": "De opdracht was om een interactieve ruimte te bouwen voor Het Upside Down Museum. De kamer moest gebaseerd zijn op een kunstenaar. De kunstenaar die we kozen was Daan Roosegaarde. De kamer moest 2,5 m x 2,5 m zijn en interactief zijn met behulp van software."
-                                                }
-                                            ],
-                                            "description": [
-                                                {
-                                                    "title": "Omschrijving ",
-                                                    "text": [
-                                                        {
-                                                            "text": "De interactieve kant van het project werd gerealiseerd met behulp van een Arduino en ledstrips. Ons idee was om een pad te creëren dat in stappen zou oplichten, omdat we dachten dat in plaats van te worden verteld waar te lopen, de kamer de gebruiker de weg door de ruimte toont. Het idee is gebaseerd op een fietspad dat de kunstenaar in Eindhoven heeft gemaakt."
-                                                        },
-                                                        {
-                                                            "text": "Het andere deel van de opdracht was het creëren van een landingspagina voor de kunstenaar die beschrijft waarom wij als groep hem hebben gekozen als onze inspiratie. De landingspagina toont de naam van het project met een video van rook. Wanneer de gebruiker naar beneden scrolt, ziet hij een afbeelding van een kunstwerk en een beschrijving van het project. Onder dat gedeelte is er een schuifregelaar die alle kunstwerken toont die ons hebben geïnspireerd om onze kamer te creëren."
                                                         }
                                                     ]
                                                 }
