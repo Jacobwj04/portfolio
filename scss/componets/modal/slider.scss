@@ -13,6 +13,7 @@
         flex-direction: column;
         border-radius: 2rem;
         @include mixins.defaultBorder;
+        justify-content: center;
     }
 
     &__sliderButtonContainer{
@@ -52,6 +53,7 @@
     }
 
     &__sliderImgContainer{
+        max-height: 35rem;
         display: flex;
         width: 100%;
         height: 100%;

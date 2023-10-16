@@ -14,6 +14,13 @@ html {
 body {
   font-family: "Titillium Web", sans-serif;
   font-size: 2rem;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  margin: auto;
+  max-width: 144rem;
 }
 
 .nav {
@@ -207,7 +214,7 @@ body {
   justify-content: center;
 }
 .banner__widgetContainer {
-  width: 70%;
+  width: 100%;
   height: 100%;
   display: flex;
   padding: 2rem;
@@ -455,7 +462,7 @@ body {
   flex-direction: column;
 }
 .banner__widgetTitle {
-  font-size: 140%;
+  font-size: 130%;
   color: #19A7CE;
   text-align: center;
 }
@@ -660,7 +667,7 @@ body {
 }
 .projects__border {
   width: 45%;
-  height: 40rem;
+  height: 35rem;
   padding: 0.5rem;
   background: rgb(255, 255, 255);
   background: radial-gradient(circle, rgb(255, 255, 255) 60%, #B4E4FF 80%);
@@ -671,7 +678,7 @@ body {
 }
 .projects__project {
   width: 45%;
-  height: 40rem;
+  height: 30rem;
   border-radius: 2rem;
   border: 0.2rem solid #a4deff;
   position: relative;
@@ -716,12 +723,6 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 97rem) {
-  .projects__project {
-    width: 45%;
-    height: 35rem;
-  }
-}
 @media screen and (max-width: 75rem) {
   .projects__project {
     width: auto;
@@ -791,6 +792,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+.modal__sections--left {
+  justify-content: center;
 }
 .modal__widgetContainer {
   width: 100%;
@@ -923,6 +927,7 @@ body {
   flex-direction: column;
   border-radius: 2rem;
   border: 0.2rem solid #a4deff;
+  justify-content: center;
 }
 .modal__sliderButtonContainer {
   position: absolute;
@@ -956,6 +961,7 @@ body {
   color: white;
 }
 .modal__sliderImgContainer {
+  max-height: 35rem;
   display: flex;
   width: 100%;
   height: 100%;

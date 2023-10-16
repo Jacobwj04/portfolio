@@ -45,6 +45,10 @@
         display: flex;
         flex-direction: column;
         gap: 3rem;
+
+        &--left{
+            justify-content: center;
+        }
     }
 
     &__widgetContainer {

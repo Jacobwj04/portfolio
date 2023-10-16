@@ -99,11 +99,15 @@ class Body {
     }
 
     render() {
-        this.renderer.render(document.querySelector("body"), this.nav.htmlElement);
-        this.renderer.render(document.querySelector("body"), this.contact.htmlElement);
-        this.renderer.render(document.querySelector("body"), this.banner.htmlElement);
-        this.renderer.render(document.querySelector("body"), this.skills.htmlElement);
-        this.renderer.render(document.querySelector("body"), this.projects.htmlElement);
+        this.main = document.createElement("main");
+        this.main.classList = "main";
+        this.renderer.render(document.querySelector("body"), this.main);
+
+        this.renderer.render(this.main, this.nav.htmlElement);
+        this.renderer.render(this.main, this.contact.htmlElement);
+        this.renderer.render(this.main, this.banner.htmlElement);
+        this.renderer.render(this.main, this.skills.htmlElement);
+        this.renderer.render(this.main, this.projects.htmlElement);
     }
 }
 
@@ -344,9 +348,6 @@ class Banner {
         this.htmlElement.appendChild(this.widgetContainer);
 
         this.createWidgetOne(this.data);
-
-        for (let i = 0; i < 3; i++) {
-        }
     }
 
     createWidgetOne(data) {
@@ -553,7 +554,7 @@ class Projects {
     modalActive(id) {
         this.modal = new Modal(this.data[0].widgets[id], this.body, this);
         this.modal.htmlElement.style.display = "flex";
-        this.body.renderer.render(document.querySelector("body"), this.modal.htmlElement);
+        this.body.renderer.render(document.querySelector("main"), this.modal.htmlElement);
 
         this.body.nav.htmlElement.style.display = "none";
         this.body.banner.htmlElement.style.display = "none";

@@ -28,7 +28,7 @@
 
     &__border {
         width: 45%;
-        height: 40rem;
+        height: 35rem;
         padding: 0.5rem;
         background: rgb(255, 255, 255);
         background: radial-gradient(circle, rgba(255, 255, 255, 1) 60%, map-get(colors.$baseColors, "colorSix") 80%);
@@ -40,7 +40,7 @@
 
     &__project {
         width: 45%;
-        height: 40rem;
+        height: 30rem;
         border-radius: 2rem;
         @include mixins.defaultBorder;
         position: relative;
@@ -87,15 +87,6 @@
             cursor: pointer;
             background: map-get(colors.$baseColors, "colorOne");
             color: white;
-        }
-    }
-}
-
-@media screen and (max-width: 97rem){
-    .projects{
-        &__project {
-            width: 45%;
-            height: 35rem;
         }
     }
 }
