@@ -32,6 +32,23 @@
 
     &__widgetParagraph{
         height: calc(100% - 21rem);
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(147, 197, 231, 0.5) transparent;
+
+        &::-webkit-scrollbar {
+            width: 0.9rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(147, 197, 231, 0.5);
+            border-radius: 0.5rem;
+            border: 0.1rem solid #8CC4EA;
+        }
     }
 
     &__widgetDesc {
