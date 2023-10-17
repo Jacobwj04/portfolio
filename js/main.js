@@ -341,8 +341,6 @@ class Banner {
         this.htmlElement = document.createElement("header");
         this.htmlElement.classList = "banner";
 
-        // this.createWidgets(this.data[0].widgets);
-
         this.widgetContainer = document.createElement("article");
         this.widgetContainer.classList = "banner__widgetContainer";
         this.htmlElement.appendChild(this.widgetContainer);
@@ -363,23 +361,27 @@ class Banner {
         this.widgetBanner.classList = "banner__widgetBanner";
         this.widget.appendChild(this.widgetBanner);
 
-        this.widgetFigureOne = document.createElement("figure");
-        this.widgetFigureOne.classList = "banner__widgetFigure";
-        this.widgetBanner.appendChild(this.widgetFigureOne);
+        this.widgetBannerSection = document.createElement("section");
+        this.widgetBannerSection.classList = "banner__bannerContainer";
+        this.widgetBanner.appendChild(this.widgetBannerSection);
 
         this.widgetIconContainer = document.createElement("section");
         this.widgetIconContainer.classList = "banner__iconContainer";
-        this.widgetFigureOne.appendChild(this.widgetIconContainer);
+        this.widgetBannerSection.appendChild(this.widgetIconContainer);
 
         this.widgetIconsContainer = document.createElement("div");
         this.widgetIconsContainer.classList = "banner__iconsContainer";
         this.widgetIconContainer.appendChild(this.widgetIconsContainer);
 
+        this.widgetFigure = document.createElement("figure");
+        this.widgetFigure.classList = "banner__figure";
+        this.widgetBannerSection.appendChild(this.widgetFigure);
+
         this.widgetImg = document.createElement("img");
         this.widgetImg.classList = "banner__widgetImg";
         this.widgetImg.src = data[0].background;
         this.widgetImg.alt = data[0].alt;
-        this.widgetFigureOne.appendChild(this.widgetImg);
+        this.widgetFigure.appendChild(this.widgetImg);
 
         for (let i = 0; i < iconData.length; i++) {
             this.widgetIcon = document.createElement("i");
