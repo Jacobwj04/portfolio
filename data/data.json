@@ -119,38 +119,38 @@
                                 {
                                     "img": "img/html.png",
                                     "title": "HTML 5",
-                                    "alt": "image of HTML 5 logo",
+                                    "alt": "image of the HTML 5 logo",
                                     "timeFrame": "2 years"
                                 },
                                 {
                                     "img": "img/css.png",
                                     "title": "CSS",
-                                    "alt": "image of CSS logo",
+                                    "alt": "image of the CSS logo",
                                     "timeFrame": "2 years"
                                 },
                                 {
                                     "img": "img/js.png",
                                     "title": "JS",
-                                    "alt": "image of Java script Logo",
+                                    "alt": "image of the Java script Logo",
                                     "timeFrame": "2 years"
                                 },
                                 {
                                     "img": "img/php.png",
                                     "title": "PHP",
-                                    "alt": "image of PHP logo",
+                                    "alt": "image of the PHP logo",
                                     "timeFrame": "1.5 years"
                                 },
                                 {
                                     "img": "img/sass.png",
                                     "title": "SASS",
-                                    "alt": "image of SASS logo",
+                                    "alt": "image of the SASS logo",
                                     "timeFrame": "1 years"
                                 },
                                 {
                                     "img": "img/swift.png",
                                     "title": "Swift",
-                                    "alt": "image of SASS logo",
-                                    "timeFrame": "4 months"
+                                    "alt": "image of the Swift logo",
+                                    "timeFrame": "6 months"
                                 }
                             ]
                         }
@@ -283,6 +283,9 @@
                                                 },
                                                 {
                                                     "img": "img/sass.png"
+                                                },
+                                                {
+                                                    "img": "img/c++.png"
                                                 }
                                             ]
                                         }
@@ -703,8 +706,8 @@
                                 {
                                     "img": "img/swift.png",
                                     "title": "Swift",
-                                    "alt": "image of SASS logo",
-                                    "timeFrame": "4 maanden"
+                                    "alt": "image of the Swift logo",
+                                    "timeFrame": "6 maanden"
                                 }
                             ]
                         }
@@ -841,6 +844,9 @@
                                                 },
                                                 {
                                                     "img": "img/sass.png"
+                                                },
+                                                {
+                                                    "img": "img/c++.png"
                                                 }
                                             ]
                                         }
