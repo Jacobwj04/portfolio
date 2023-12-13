@@ -308,6 +308,7 @@ class Contact {
             this.link.classList = "contact__link";
             this.link.href = links[i].link;
             this.link.innerText = links[i].title;
+            this.link.target = "_blank";
 
             this.listItem.appendChild(this.icon);
             this.list.appendChild(this.listItem);
