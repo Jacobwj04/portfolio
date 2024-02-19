@@ -144,13 +144,25 @@
                                     "img": "img/sass.png",
                                     "title": "SASS",
                                     "alt": "image of the SASS logo",
-                                    "timeFrame": "1 years"
+                                    "timeFrame": "1 year"
                                 },
                                 {
                                     "img": "img/swift.png",
                                     "title": "Swift",
                                     "alt": "image of the Swift logo",
                                     "timeFrame": "6 months"
+                                },
+                                {
+                                    "img": "img/react.png",
+                                    "title": "React",
+                                    "alt": "image of the Swift logo",
+                                    "timeFrame": "6 months"
+                                },
+                                {
+                                    "img": "img/docker.png",
+                                    "title": "Docker",
+                                    "alt": "image of the Swift logo",
+                                    "timeFrame": "1 year"
                                 }
                             ]
                         }
@@ -292,42 +304,66 @@
                                     ]
                                 },
                                 {
-                                    "title": "Banky",
-                                    "img": "img/banky.webp",
-                                    "alt": "this is an image of a bank app that I made",
+                                    "title": "PMB & BMV",
+                                    "img": "img/PMB1.webp",
+                                    "alt": "this is an image of the PMB en BMV deparment website that I made for Amsterdam council",
                                     "buttonText": "More Info",
                                     "modal": [
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/banky.webp",
+                                                    "img": "img/PMB1.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/bankyDesktopDesign.webp",
+                                                    "img": "img/PMB2.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/bankyMobileDesign.webp",
+                                                    "img": "img/PMB3.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/PMB4.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/PMB5.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/PMB6.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/PMB7.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/PMB8.webp",
+                                                    "alt": "this is an image of a bank app that i made"
+                                                },
+                                                {
+                                                    "img": "img/PMB9.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
                                             "links": [
                                                 {
                                                     "name": "View Github",
-                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "link": "https://github.com/Jacobwj04/m10-frontEnd",
                                                     "img": "img/github.png"
                                                 },
                                                 {
                                                     "name": "View Site",
-                                                    "link": "https://jacobwj04.github.io/banky",
+                                                    "link": "https://jacobwj04.github.io/m10-frontEnd/#/",
                                                     "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
                                                     "title": "Assignment",
-                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
+                                                    "text": "The assignment was to create a new website for the Municipality of Amsterdam for the PMB and BMV departments. The Municipality of Amsterdam wanted a new website because their existing one looked outdated. They also wanted something similar to the Amsterdam 750 website, which served as my inspiration for the website I created."
                                                 }
                                             ],
                                             "description": [
@@ -335,10 +371,10 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
+                                                            "text": "The website consists of multiple pages. The first page is the homepage. On the homepage, the user immediately sees an image to capture their attention. They also see the page title and navigation right away. As the user scrolls down, they can find information about what BMV actually is, inspired by Amsterdam 750. Next, there is the Organization section, which consists of 3 cards. When the user clicks on one of these cards, they get to see an animation that expands the cards. I did this to hide a lot of text and not distract the user. The next section is the Projects section, which consists of 8 cards. The cards display the current project title and a button to go to the project page. Lastly, there is the Work at BMV section, providing more information about BMV and where you can apply to work or submit job applications.\n\n"
                                                         },
                                                         {
-                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
+                                                            "text": "There are two other pages. The first one is the contact page. The contact page displays the location of BMV and BMV's contact information, allowing the user to get in touch directly. When the user is on the contact page, they will notice that the navigation is dynamically adjusted. Additionally, the footer is also dynamically modified. Lastly, I created a project page that only appears when the user clicks on one of the projects. On the project page, the user sees an automated slider and a description of the project."
                                                         }
                                                     ]
                                                 }
@@ -352,6 +388,9 @@
                                                 },
                                                 {
                                                     "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/react.png"
                                                 },
                                                 {
                                                     "img": "img/sass.png"
@@ -412,42 +451,42 @@
                                     ]
                                 },
                                 {
-                                    "title": "Collection of happiness",
-                                    "img": "img/Collection of Happiness.webp",
-                                    "alt": "this is an image of a podcast site that i made",
+                                    "title": "Banky",
+                                    "img": "img/banky.webp",
+                                    "alt": "this is an image of a bank app that I made",
                                     "buttonText": "More Info",
                                     "modal": [
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/Collection of Happiness.webp",
+                                                    "img": "img/banky.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/COHDesktopDesign.png",
+                                                    "img": "img/bankyDesktopDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/COHMobileDesign.webp",
+                                                    "img": "img/bankyMobileDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
                                             "links": [
                                                 {
                                                     "name": "View Github",
-                                                    "link": "https://github.com/Jacobwj04/Collection-of-Happiness-",
+                                                    "link": "https://github.com/Jacobwj04/banky",
                                                     "img": "img/github.png"
                                                 },
                                                 {
                                                     "name": "View Site",
-                                                    "link": "https://jacobwj04.github.io/Collection-of-Happiness-/",
+                                                    "link": "https://jacobwj04.github.io/banky",
                                                     "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
                                                     "title": "Assignment",
-                                                    "text": "Collection of happiness was an end of year project in the second. The assignment was to make a web application for a podcast called Collection of happiness using the OOP methond and generating html with js."
+                                                    "text": "The assignment in the second year was to create a bank application. During this assignment we leared to work using the OOP method. Also I learned how to generate html with js."
                                                 }
                                             ],
                                             "description": [
@@ -455,10 +494,10 @@
                                                     "title": "Description ",
                                                     "text": [
                                                         {
-                                                            "text": "The project is made of two sides the left side shows four randomly generated cards. When one of the cards the is clicked the infomation is put into the modal in the right section. Each card displays the date that the podcast was writen and the title of the podcast it also displays an image that fits the title of the podcats."
+                                                            "text": "This website needed to allow seamless switching between two primary screens: the bank account overview and the self-employed (ZZP) data screen.\n \n Left Section - Bank Account Overview: In this section, the emphasis was on displaying the user's financial data. Users could easily view their income and expenses at a glance. An essential eye icon was integrated, enabling users to temporarily obscure their account information to ensure privacy and prevent unauthorized access. Additionally, users could check their account balance."
                                                         },
                                                         {
-                                                            "text": "The right section has a modal in it that displays the data from the first card. The modal is made up of an image with the title and date of the podcast. The modal also has a description of the podcast. The modal also has two buttons one of the button downloads an audio file of the podcast and the other button links to the podcast site for more information."
+                                                            "text": "Right Section - Switching Between Accounts: On the right side, two buttons were placed to facilitate easy switching between two different bank accounts. This made it simple for users to view various financial perspectives. This assignment emphasized the development of a user-friendly and intuitive website for financial purposes, focusing on managing bank accounts and ZZP data with convenient features like privacy protection and straightforward account switching."
                                                         }
                                                     ]
                                                 }
@@ -708,6 +747,18 @@
                                     "title": "Swift",
                                     "alt": "image of the Swift logo",
                                     "timeFrame": "6 maanden"
+                                },
+                                {
+                                    "img": "img/react.png",
+                                    "title": "React",
+                                    "alt": "image of the Swift logo",
+                                    "timeFrame": "6 maanden"
+                                },
+                                {
+                                    "img": "img/docker.png",
+                                    "title": "Docker",
+                                    "alt": "image of the Swift logo",
+                                    "timeFrame": "1 jaar"
                                 }
                             ]
                         }
@@ -853,53 +904,77 @@
                                     ]
                                 },
                                 {
-                                    "title": "Banky",
-                                    "img": "img/banky.png",
-                                    "alt": "this is an image of a bank app that i made",
-                                    "buttonText": "Meer Info",
+                                    "title": "PMB & BMV",
+                                    "img": "img/PMB1.webp",
+                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam.",
+                                    "buttonText": "More Info",
                                     "modal": [
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/banky.webp",
-                                                    "alt": "this is an image of a bank app that i made"
+                                                    "img": "img/PMB1.webp",
+                                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam."
                                                 },
                                                 {
-                                                    "img": "img/bankyDesktopDesign.webp",
-                                                    "alt": "this is an image of a bank app that i made"
+                                                    "img": "img/PMB2.webp",
+                                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam."
                                                 },
                                                 {
-                                                    "img": "img/bankyMobileDesign.webp",
-                                                    "alt": "this is an image of a bank app that i made"
+                                                    "img": "img/PMB3.webp",
+                                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam."
+                                                },
+                                                {
+                                                    "img": "img/PMB4.webp",
+                                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam."
+                                                },
+                                                {
+                                                    "img": "img/PMB5.webp",
+                                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam."
+                                                },
+                                                {
+                                                    "img": "img/PMB6.webp",
+                                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam."
+                                                },
+                                                {
+                                                    "img": "img/PMB7.webp",
+                                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam."
+                                                },
+                                                {
+                                                    "img": "img/PMB8.webp",
+                                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam."
+                                                },
+                                                {
+                                                    "img": "img/PMB9.webp",
+                                                    "alt": "Dit is een afbeelding van de website die ik gemaakt heb voor het afdeeling PMB en BMV voor het gemeente Amsterdam."
                                                 }
                                             ],
                                             "links": [
                                                 {
                                                     "name": "Bekijk Github",
-                                                    "link": "https://github.com/Jacobwj04/banky",
+                                                    "link": "https://github.com/Jacobwj04/m10-frontEnd",
                                                     "img": "img/github.png"
                                                 },
                                                 {
                                                     "name": "Bekijk Site",
-                                                    "link": "https://jacobwj04.github.io/banky",
+                                                    "link": "https://jacobwj04.github.io/m10-frontEnd/#/",
                                                     "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
                                                     "title": "Opdracht",
-                                                    "text": "De opdracht in het tweede jaar was het maken van een banktoepassing. Tijdens deze opdracht hebben we geleerd te werken volgens de OOP-methode (Objectgeoriënteerd Programmeren). Daarnaast heb ik geleerd hoe je HTML kunt genereren met behulp van JavaScript."
+                                                    "text": "De opdracht was om een nieuwe website te maken voor het gemeente Amsterdam voor het afdeeling PMB en BMV. Gemeente Amsterdam wilde een nieuwe website omdat die van hun te oud uitzag. Ze wilde ook iets dat leek op het website van Amsterdam 750 dus dat was mijn inspiratie voor de website die ik gemaakt had."
                                                 }
                                             ],
                                             "description": [
                                                 {
-                                                    "title": "Omschrijving ",
+                                                    "title": "Omschrijving",
                                                     "text": [
                                                         {
-                                                            "text": "Deze website moest naadloos kunnen overschakelen tussen twee hoofdschermen: het bankrekeningoverzicht en het scherm voor zelfstandigen (ZZP).\n\nLinkersectie - Bankrekening Overzicht: In deze sectie lag de nadruk op het weergeven van de financiële gegevens van de gebruiker. Gebruikers konden eenvoudig hun inkomsten en uitgaven in één oogopslag bekijken. Een essentieel oogpictogram was geïntegreerd, waarmee gebruikers tijdelijk hun rekeninginformatie konden verbergen om de privacy te waarborgen en ongeautoriseerde toegang te voorkomen. Bovendien konden gebruikers hun rekeningsaldo controleren."
+                                                            "text": "Het website bestaat uit merdere pagina's. De eerste pagina is de homepage. Op de homepage ziet de gebruiker gelijk een afbeelding om de aandacht te trekken van de gebruiker. Ook ziet de gebruiker gelijk de titel van de pagina en de navigatie. Als de gebruiker nabeneden scrolt kan hij informatie vinden van wat BMV eigelijk is. Dit sectie heeft de inspiratie van Amsterdam 750. Daarna kan je de Organistatie sectie zien die bestaat uit 3 kaartjes. Zodra de gebruiker op een van deze kaartjes druk krijgt hij een animatie te zien die de kaartjes uitklapt.Dit heb ik gedaan zodat je veel text kan versptoppen en wordt de gebruiker niet afgelijd. De volgende deel is de projecten sectie die bestaat uit 8 kaartjes. In de kaartjes staat de huidige titlel van het project maar ook een knop om naar de project pagina te gaan. Als laaste is de werkenbij sectie die meer informatie geeft over BMV en waar je kan opgeven om daar te werken of solicteren.\n\n"
                                                         },
                                                         {
-                                                            "text": "Rechtersectie - Overschakelen tussen Rekeningen: Aan de rechterzijde werden twee knoppen geplaatst om het eenvoudig wisselen tussen twee verschillende bankrekeningen te vergemakkelijken. Hiermee konden gebruikers eenvoudig diverse financiële perspectieven bekijken. Deze opdracht legde de nadruk op de ontwikkeling van een gebruiksvriendelijke en intuïtieve website voor financiële doeleinden, met de focus op het beheren van bankrekeningen en ZZP-gegevens met handige functies zoals privacybescherming en eenvoudig wisselen van rekening."
+                                                            "text": "Er zijn twee andere pagina's. De eerste is de contact pagina. De contact pagina toont de loctie van BMV en de contact gegevens van BMV zodat de gebruiker direct contact kan opnemen. Als de gebruiker op de contact pagina zit ziet hij dat de navigatie dynamisch aangepast word. Maar de footer word ook dynamisch aangepast. Als laaste heb ik een project pagina gemaakt die aleen tevoorschijn komt zodra de gebruiker op een van de projecten klikt. Op de project pagina ziet de gebruiker een slider die ook automaties is. En een omschrijving van het project."
                                                         }
                                                     ]
                                                 }
@@ -913,6 +988,9 @@
                                                 },
                                                 {
                                                     "img": "img/js.png"
+                                                },
+                                                {
+                                                    "img": "img/react.png"
                                                 },
                                                 {
                                                     "img": "img/sass.png"
@@ -973,42 +1051,42 @@
                                     ]
                                 },
                                 {
-                                    "title": "Collection of happiness",
-                                    "img": "img/Collection of Happiness.png",
-                                    "alt": "this is an image of a podcast site that i made",
+                                    "title": "Banky",
+                                    "img": "img/banky.png",
+                                    "alt": "this is an image of a bank app that i made",
                                     "buttonText": "Meer Info",
                                     "modal": [
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/Collection of Happiness.webp",
+                                                    "img": "img/banky.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/COHDesktopDesign.png",
+                                                    "img": "img/bankyDesktopDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/COHMobileDesign.webp",
+                                                    "img": "img/bankyMobileDesign.webp",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
                                             "links": [
                                                 {
                                                     "name": "Bekijk Github",
-                                                    "link": "https://github.com/Jacobwj04/Collection-of-Happiness-",
+                                                    "link": "https://github.com/Jacobwj04/banky",
                                                     "img": "img/github.png"
                                                 },
                                                 {
                                                     "name": "Bekijk Site",
-                                                    "link": "https://jacobwj04.github.io/Collection-of-Happiness-/",
+                                                    "link": "https://jacobwj04.github.io/banky",
                                                     "img": "img/site.png"
                                                 }
                                             ],
                                             "assignment": [
                                                 {
                                                     "title": "Opdracht",
-                                                    "text": "Collection of happiness was een eindejaarsproject in het tweede jaar. De opdracht was om een webtoepassing te maken voor een podcast genaamd Collection of happiness met behulp van de OOP-methode en HTML te genereren met behulp van JavaScript."
+                                                    "text": "De opdracht in het tweede jaar was het maken van een banktoepassing. Tijdens deze opdracht hebben we geleerd te werken volgens de OOP-methode (Objectgeoriënteerd Programmeren). Daarnaast heb ik geleerd hoe je HTML kunt genereren met behulp van JavaScript."
                                                 }
                                             ],
                                             "description": [
@@ -1016,10 +1094,10 @@
                                                     "title": "Omschrijving ",
                                                     "text": [
                                                         {
-                                                            "text": "Het project bestaat uit twee zijden. Aan de linkerkant worden vier willekeurig gegenereerde kaarten weergegeven. Wanneer een van de kaarten wordt aangeklikt, wordt de informatie in het modaalvenster aan de rechterzijde geplaatst. Elke kaart toont de datum waarop de podcast is geschreven en de titel van de podcast. Ook wordt er een afbeelding weergegeven die bij de titel van de podcast past."
+                                                            "text": "Deze website moest naadloos kunnen overschakelen tussen twee hoofdschermen: het bankrekeningoverzicht en het scherm voor zelfstandigen (ZZP).\n\nLinkersectie - Bankrekening Overzicht: In deze sectie lag de nadruk op het weergeven van de financiële gegevens van de gebruiker. Gebruikers konden eenvoudig hun inkomsten en uitgaven in één oogopslag bekijken. Een essentieel oogpictogram was geïntegreerd, waarmee gebruikers tijdelijk hun rekeninginformatie konden verbergen om de privacy te waarborgen en ongeautoriseerde toegang te voorkomen. Bovendien konden gebruikers hun rekeningsaldo controleren."
                                                         },
                                                         {
-                                                            "text": "De rechtersectie bevat een modaal venster waarin de gegevens van de eerste kaart worden weergegeven. Het modaal venster bestaat uit een afbeelding met de titel en datum van de podcast. Het modaal venster bevat ook een beschrijving van de podcast. Verder bevat het modaal venster twee knoppen. De ene knop downloadt een audiobestand van de podcast, en de andere knop linkt naar de podcastwebsite voor meer informatie."
+                                                            "text": "Rechtersectie - Overschakelen tussen Rekeningen: Aan de rechterzijde werden twee knoppen geplaatst om het eenvoudig wisselen tussen twee verschillende bankrekeningen te vergemakkelijken. Hiermee konden gebruikers eenvoudig diverse financiële perspectieven bekijken. Deze opdracht legde de nadruk op de ontwikkeling van een gebruiksvriendelijke en intuïtieve website voor financiële doeleinden, met de focus op het beheren van bankrekeningen en ZZP-gegevens met handige functies zoals privacybescherming en eenvoudig wisselen van rekening."
                                                         }
                                                     ]
                                                 }
