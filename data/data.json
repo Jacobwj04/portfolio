@@ -777,15 +777,11 @@
                                         {
                                             "slider": [
                                                 {
-                                                    "img": "img/banky.webp",
+                                                    "img": "img/Clima1.PNG",
                                                     "alt": "this is an image of a bank app that i made"
                                                 },
                                                 {
-                                                    "img": "img/bankyDesktopDesign.webp",
-                                                    "alt": "this is an image of a bank app that i made"
-                                                },
-                                                {
-                                                    "img": "img/bankyMobileDesign.webp",
+                                                    "img": "img/Clima2.PNG",
                                                     "alt": "this is an image of a bank app that i made"
                                                 }
                                             ],
