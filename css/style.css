@@ -256,9 +256,9 @@ body {
 .banner__widgetImg {
   height: auto;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   border-bottom-right-radius: 2rem;
-  max-height: 35rem;
+  max-height: 80%;
 }
 
 @media screen and (max-width: 93.75rem) {
@@ -299,7 +299,6 @@ body {
   }
   .banner__widgetImg {
     object-fit: cover;
-    opacity: 0.8;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 0;
   }
