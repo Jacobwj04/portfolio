@@ -968,9 +968,13 @@ body {
   align-items: center;
 }
 .modal__sliderImg {
+  opacity: 0;
   width: 100%;
   height: 100%;
   object-fit: contain;
+  animation: imageFade;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 .modal__sliderImgDotContainer {
   position: absolute;
@@ -984,7 +988,7 @@ body {
   gap: 1rem;
 }
 .modal__sliderDot {
-  width: 4rem;
+  width: 2rem;
   height: 2rem;
   border: 0.2rem solid #a4deff;
   border-radius: 2rem;
@@ -992,9 +996,16 @@ body {
   transition: all 0.4s;
 }
 .modal__sliderDot--active {
-  background: rgba(0, 0, 0, 0.371);
+  width: 6rem;
+}
+.modal__sliderDot--bar {
+  border-radius: 2rem;
+  animation: progressBar;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 .modal__sliderDot:hover {
+  width: 5rem;
   cursor: pointer;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -1282,6 +1293,32 @@ body {
   100% {
     width: 0%;
     height: 0%;
+    opacity: 0;
+  }
+}
+@keyframes progressBar {
+  0% {
+    width: 0%;
+    height: 100%;
+    background: #8CC4EA;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #8CC4EA;
+  }
+}
+@keyframes imageFade {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
     opacity: 0;
   }
 }

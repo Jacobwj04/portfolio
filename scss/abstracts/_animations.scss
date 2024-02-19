@@ -86,3 +86,37 @@
         opacity: 0;
     }
 }
+
+// Slider Animations
+
+@keyframes progressBar{
+    0%{
+        width: 0%;
+        height: 100%;
+        background: #8CC4EA;
+    }
+
+    100%{
+        width: 100%;
+        height: 100%;
+        background: #8CC4EA;
+    }
+}
+
+@keyframes imageFade{
+    0%{
+        opacity: 0;
+    }
+
+    40%{
+        opacity: 1;
+    }
+
+    60%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}

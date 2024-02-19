@@ -807,6 +807,7 @@ class Slider {
         };
 
         this.renderDots(data);
+        this.autoSlider(data);
     }
 
     renderImg(data) {
@@ -836,6 +837,9 @@ class Slider {
 
             if (this.sliderImgDot.id == this.sliderIndex) {
                 this.sliderImgDot.classList = "modal__sliderDot modal__sliderDot--active";
+                this.sliderImgDotBar = document.createElement("p");
+                this.sliderImgDotBar.classList = "modal__sliderDot--bar";
+                this.sliderImgDot.appendChild(this.sliderImgDotBar);
             }
         }
     }
@@ -872,6 +876,21 @@ class Slider {
         this.renderImg(this.sliderData);
         this.renderDots(this.sliderData);
     }
+
+    autoSlider(data) {
+        this.sliderInterval = setInterval(() => {
+          this.sliderIndex += 1;
+      
+          if (this.sliderIndex >= data.length) {
+            this.sliderIndex = 0;
+          }
+      
+          this.sliderImgContainer.remove();
+          this.sliderImgDotContainer.remove();
+          this.renderImg(this.sliderData);
+          this.renderDots(this.sliderData);
+        }, 3000);
+      }
 }
 
 const app = new App();
