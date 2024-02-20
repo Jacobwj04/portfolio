@@ -259,6 +259,7 @@ body {
   opacity: 0.9;
   border-bottom-right-radius: 2rem;
   max-height: 80%;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 93.75rem) {
