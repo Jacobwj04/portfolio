@@ -837,7 +837,7 @@ class Slider {
 
             if (this.sliderImgDot.id == this.sliderIndex) {
                 this.sliderImgDot.classList = "modal__sliderDot modal__sliderDot--active";
-                this.sliderImgDotBar = document.createElement("p");
+                this.sliderImgDotBar = document.createElement("figure");
                 this.sliderImgDotBar.classList = "modal__sliderDot--bar";
                 this.sliderImgDot.appendChild(this.sliderImgDotBar);
             }
@@ -889,7 +889,7 @@ class Slider {
           this.sliderImgDotContainer.remove();
           this.renderImg(this.sliderData);
           this.renderDots(this.sliderData);
-        }, 3000);
+        }, 5000);
       }
 }
 
